@@ -1,0 +1,124 @@
+# This IG YML file is inspired by the ImplementationGuide resource
+# and also draws from package.json, package-list.json, and ig.ini.
+# That said, it is structured for ease-of-use, so it is not strictly
+# conformant to any of those existing configuration formats.
+
+# SUSHI will use id as both id and packageId in the IG unless a
+# specific packageId is also provided in this file.
+id: hl7.fhir.us.cdc-opioid-cpg
+canonical: http://hl7.org/fhir/us/cdc-opioid-cpg
+name: CDCOpioidCPG
+title: Data Exchange Profiles for 2022 CDC Clinical Practice Guideline for Prescribing Opioids
+description: >-
+  Defines exchange expectations for systems that implement the 2022 CDC Clinical Practice Guideline for Prescribing Opioids, both in terms of the data required to evaluate whether recommendations are applicable, as well as the data required to represent proposals resulting from those recommendations.
+status: active
+license: CC0-1.0
+date: 2024-11-27
+version: 1.0.0-cibuild
+
+# Although fhirVersions is 0..* in the ImplementationGuide resource
+# it can be a single item OR and array here (but so far SUSHI only
+# supports 4.0.1 anyway).
+fhirVersion: 4.0.1
+
+# The following two lines correspond to items that used to be in
+# ig.ini but were moved to IG.definition.parameter. For
+# consistency within this file, the names are represented using
+# camelcase, but if authors use the formal parameter names, SUSHI
+# will recognize them as well. In either case, they'll be copied
+# to the IG JSON using the formal names.
+copyrightYear: 2024+
+releaseLabel: CIBuild
+
+# The publisher can be a single item or a list, each with a name and
+# optional url and/or email. The first publisher's name will be used
+# as IG.publisher.  The contact details and/or additional publishers
+# will be translated into IG.contact values.
+publisher:
+  name: HL7 International / Clinical Decision Support
+
+extension:
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
+    valueCode: cds
+
+# Those who need more control or want to add additional details to the contact values can use
+# contact directly and follow the format outlined in the ImplementationGuide resource and
+# ContactDetail.
+contact:
+  - telecom:
+    - system: url
+      value: http://www.hl7.org/Special/committees/dss
+
+# The jurisdiction can be a single item or a list. The FHIR Shorthand
+# code syntax can be used here.
+jurisdiction: urn:iso:std:iso:3166#US
+
+# The dependencies property corresponds to IG.dependsOn. The key is the
+# package id and the value is the version (or dev/current). For advanced
+# use cases, the value can be an object with keys for `uri` and `version`.
+# For R5 ImplementationGuides, the object can also have a key for `reason`.
+# dependencies:
+
+parameters:
+  apply-contact: true
+  apply-publisher: true
+  apply-version: true
+  apply-jurisdiction: true
+  apply-license: true
+  apply-copyright: true
+  apply-wg: true
+  excludettl: true
+  jira-code: us-cdc-opioid-cpg
+  path-history: http://hl7.org/fhir/us/cdc-opioid-cpg/history.html
+#  auto-oid-root: TBD
+
+pages:
+  index.md:
+    title: Home
+  background.md:
+    title: Background
+  profiles.md:
+    title: Profiles
+  extensions.md:
+    title: Extensions
+  operations.md:
+    title: Operations
+  capabilities.md:
+    title: Capabilities
+  terminology.md:
+    title: Terminology
+  artifacts.xml:
+    title: Artifacts Summary
+  downloads.md:
+    title: Downloads
+  changes.md:
+    title: Changes
+
+# The resources property corresponds to IG.definition.resource.
+# SUSHI can auto-generate all of the resource entries based on
+# the FSH definitions and/or information in any user-provided
+# JSON or XML resource files. If the generated entries are not
+# sufficient or complete, however, the author can add entries
+# here. If the reference matches a generated entry, it will
+# replace the generated entry. If it doesn't match any generated
+# entries, it will be added to the generated entries. The format
+# follows IG.definition.resource with the following differences:
+#   * use IG.definition.resource.reference.reference as the YAML key.
+#   * if the key is an id or name, SUSHI will replace it with the
+#     correct URL when generating the IG JSON.
+#   * specify "omit" to omit a FSH-generated resource from the
+#     resource list.
+#   * if the exampleCanonical is an id or name, SUSHI will replace
+#     it with the correct canonical when generating the IG JSON.
+#   * groupingId can be used, but top-level groups syntax may be a
+#     better option (see below).
+# The following are simple examples to demonstrate what this might
+# look like:
+#
+# resources:
+  # ImplementationGuide/hl7.fhir.uv.cpg.chf: omit #omit this because this template does not generate HTML for IG, so the link from TOC fails
+#   Patient/my-example-patient:
+#     name: My Example Patient
+#     description: An example Patient
+#     exampleBoolean: true
+#   Patient/bad-example: omit

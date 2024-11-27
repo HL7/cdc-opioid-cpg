@@ -1,0 +1,12 @@
+package-id: hl7.fhir.us.cdc-opioid-cpg
+title: Data Exchange Profiles for 2022 CDC Clinical Practice Guideline for Prescribing Opioids
+canonical: 'http://hl7.org/fhir/us/cdc-opioid-cpg'
+introduction: >-
+  Defines exchange expectations for systems that implement the 2022 CDC Clinical Practice Guideline for Prescribing Opioids, both in terms of the data required to evaluate whether recommendations are applicable, as well as the data required to represent proposals resulting from those recommendations.
+list:
+  - version: current
+    desc: |-
+      
+      The following trackers were applied for this version:
+
+      **Status**: **Summary**:(**Jira Issue**)

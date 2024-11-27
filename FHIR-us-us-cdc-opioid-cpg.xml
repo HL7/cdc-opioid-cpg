@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="cds" url="http://hl7.org/fhir/us/cdc-opioid-cpg">
+<version code="current" url=""/>
+<artifactPageExtension value="-definitions"/>
+<artifactPageExtension value="-examples"/>
+<artifactPageExtension value="-mappings"/>
+<page key="NA" name="(NA)"/>
+<page key="many" name="(many)"/>
+<page key="artifacts" name="Artifacts Summary"/>
+<page key="background" name="Background"/>
+<page key="capabilities" name="Capabilities"/>
+<page key="changes" name="Changes"/>
+<page key="downloads" name="Downloads"/>
+<page key="extensions" name="Extensions"/>
+<page key="index" name="Home"/>
+<page key="operations" name="Operations"/>
+<page key="profiles" name="Profiles"/>
+<page key="toc" name="Table of Contents"/>
+<page key="terminology" name="Terminology"/>
+</specification>
