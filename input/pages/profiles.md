@@ -2,4 +2,4 @@
 
 {: #profiles}
 
-TODO
+{% include list-simple-profiles.xhtml %}
