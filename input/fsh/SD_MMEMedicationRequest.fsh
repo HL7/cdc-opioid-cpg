@@ -1,11 +1,9 @@
 Profile: MMEMedicationRequest
-Parent: $QICoreMedicationRequest
+Parent: OpioidMedicationRequest
 Id: MMEMedicationRequest
 Title: "MME MedicationRequest Profile"
-Description: "Defines the minimum expectations for a MedicationRequest that can be used to successfully calculate Morphine Milligram Equivalent (MME)/day according to the CDC Opioid Prescribing guideline."
+Description: "Defines the minimum expectations for a MedicationRequest that can be used to successfully calculate Morphine Milligram Equivalent (MME)/day according to the 2022 CDC Clinical Practice Guideline for Prescribing Opioids Implementation Guide."
 
-* medicationCodeableConcept from $OpioidMedicationVS (required) 
-* medicationReference only Reference(OpioidMedication)
 * dosageInstruction 1..1 MS
 * dosageInstruction.asNeeded[x] only boolean
 * dosageInstruction.timing 1..1 MS
