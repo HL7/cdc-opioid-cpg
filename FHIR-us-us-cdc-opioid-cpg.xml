@@ -4,6 +4,7 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
+<artifact id="StructureDefinition/AcuteMedicationRequest" key="StructureDefinition-AcuteMedicationRequest" name="Acute MedicationRequest Profile"/>
 <artifact id="StructureDefinition/MMEMedicationRequest" key="StructureDefinition-MMEMedicationRequest" name="MME MedicationRequest Profile"/>
 <artifact id="StructureDefinition/OpioidMedication" key="StructureDefinition-OpioidMedication" name="Opioid Medication Profile"/>
 <artifact id="ValueSet/opioid-analgesics-with-ambulatory-misuse-potential" key="ValueSet-opioid-analgesics-with-ambulatory-misuse-potential" name="Opioid analgesics with ambulatory misuse potential"/>
