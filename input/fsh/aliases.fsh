@@ -7,4 +7,4 @@ Alias:   $USCoreMedication = http://hl7.org/fhir/us/core/StructureDefinition/us-
 
 // Terminology
 Alias:   $OpioidMedicationVS = http://fhir.org/guides/cdc/opioid-cds/ValueSet/opioid-analgesics-with-ambulatory-misuse-potential
-Alias:   $AmphetamineUDSVS   = http://fhir.org/guides/cdc/opioid-cds/ValueSet/amphetamine-drug-urine-screening-tests
+Alias:   $AmphetamineUDSVS   = http://fhir.org/guides/cdc/opioid-cds/ValueSet/amphetamine-urine-drug-screening-tests
