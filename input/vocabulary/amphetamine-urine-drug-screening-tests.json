@@ -1,8 +1,8 @@
 {
   "resourceType": "ValueSet",
-  "id": "amphetamine-drug-urine-screening-tests",
+  "id": "amphetamine-urine-drug-screening-tests",
   "meta": {
-    "profile": [ "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
+    "profile": [ "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
   },
   "extension": [ {
     "url": "http://hl7.org/fhir/StructureDefinition/valueset-author",
@@ -23,8 +23,8 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-usageWarning",
     "valueString": "This value set contains a point-in-time expansion enumerating the codes that meet the value set intent. As new versions of the code systems used by the value set are released, the contents of this expansion will need to be updated to incorporate newly defined codes that meet the value set intent. Before, and periodically during production use, the value set expansion contents SHOULD be updated. The value set expansion specifies the timestamp when the expansion was produced, SHOULD contain the parameters used for the expansion, and SHALL contain the codes that are obtained by evaluating the value set definition. If this is ONLY an executable value set, a distributable definition of the value set must be obtained to compute the updated expansion."
   } ],
-  "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/amphetamine-drug-urine-screening-tests",
-  "name": "AMPHETAMINE_DRUG_URINE_SCREENING_TESTS",
+  "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/amphetamine-urine-drug-screening-tests",
+  "name": "AMPHETAMINE_URINE_DRUG_SCREENING_TESTS",
   "title": "Amphetamine-class drugs and metabolite urine tests",
   "status": "active",
   "experimental": false,
@@ -55,7 +55,7 @@
       }, {
         "property": "SYSTEM",
         "op": "=",
-        "value": "Urine"
+        "value": "LP7681-2"
       }, {
         "property": "CLASSTYPE",
         "op": "=",
@@ -70,7 +70,7 @@
       }, {
         "property": "SYSTEM",
         "op": "=",
-        "value": "Urine"
+        "value": "LP7681-2"
       }, {
         "property": "CLASSTYPE",
         "op": "=",
@@ -85,7 +85,7 @@
       }, {
         "property": "SYSTEM",
         "op": "=",
-        "value": "Urine"
+        "value": "LP7681-2"
       }, {
         "property": "CLASSTYPE",
         "op": "=",
@@ -100,7 +100,7 @@
       }, {
         "property": "SYSTEM",
         "op": "=",
-        "value": "Urine"
+        "value": "LP7681-2"
       }, {
         "property": "CLASSTYPE",
         "op": "=",
@@ -109,7 +109,6 @@
     } ]
   },
   "expansion": {
-    "identifier": "e4bdcc40-5d72-40db-ad17-b7b62941b7dc",
     "timestamp": "2023-05-25T18:08:12-06:00",
     "total": 189,
     "contains": [ {
