@@ -12,6 +12,9 @@
 <artifact id="StructureDefinition/OpioidMedication" key="StructureDefinition-OpioidMedication" name="Opioid Medication Profile"/>
 <artifact id="StructureDefinition/OpioidMedicationRequest" key="StructureDefinition-OpioidMedicationRequest" name="Opioid MedicationRequest Profile"/>
 <artifact id="ValueSet/opioid-analgesics-with-ambulatory-misuse-potential" key="ValueSet-opioid-analgesics-with-ambulatory-misuse-potential" name="Opioid analgesics with ambulatory misuse potential"/>
+<artifact id="StructureDefinition/SickleCellEncounterDiagnosisCondition" key="StructureDefinition-SickleCellEncounterDiagnosisCondition" name="Sickle Cell Encounter Diagnosis Condition Profile"/>
+<artifact id="StructureDefinition/SickleCellProblemListHealthConcernCondition" key="StructureDefinition-SickleCellProblemListHealthConcernCondition" name="Sickle Cell Problem List Health Concern Condition Profile"/>
+<artifact id="ValueSet/sickle-cell-diseases" key="ValueSet-sickle-cell-diseases" name="Sickle-cell diseases"/>
 <artifact id="StructureDefinition/SubacutePainManagementMedicationRequest" key="StructureDefinition-SubacutePainManagementMedicationRequest" name="Subacute Pain Management MedicationRequest Profile"/>
 <artifact id="StructureDefinition/UrineDrugScreeningResultObservation" key="StructureDefinition-UrineDrugScreeningResultObservation" name="Urine Drug Screening Result Observation"/>
 <page key="NA" name="(NA)"/>
