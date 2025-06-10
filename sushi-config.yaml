@@ -80,7 +80,8 @@ parameters:
   excludettl: true
   jira-code: us-cdc-opioid-cpg
   path-history: http://hl7.org/fhir/us/cdc-opioid-cpg/history.html
-  special-url: http://fhir.org/guides/cdc/opioid-cds/ValueSet/opioid-analgesics-with-ambulatory-misuse-potential, http://fhir.org/guides/cdc/opioid-cds/ValueSet/amphetamine-drug-urine-screening-tests
+  special-url: http://fhir.org/guides/cdc/opioid-cds/ValueSet/opioid-analgesics-with-ambulatory-misuse-potential, http://fhir.org/guides/cdc/opioid-cds/ValueSet/amphetamine-drug-urine-screening-tests, http://fhir.org/guides/cdc/opioid-cds/ValueSet/sickle-cell-diseases
+  path-expansion-params: ../../exp-params.json
 #  auto-oid-root: TBD
 
 pages:
