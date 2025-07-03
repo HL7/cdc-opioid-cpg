@@ -8,6 +8,9 @@
 <artifact id="StructureDefinition/AmphetamineUrineDrugScreeningResultObservation" key="StructureDefinition-AmphetamineUrineDrugScreeningResultObservation" name="Amphetamine Urine Drug Screening Result Observation"/>
 <artifact id="ValueSet/amphetamine-drug-urine-screening-tests" key="ValueSet-amphetamine-drug-urine-screening-tests" name="Amphetamine-class drugs and metabolite urine tests"/>
 <artifact id="StructureDefinition/ChronicPainManagementMedicationRequest" key="StructureDefinition-ChronicPainManagementMedicationRequest" name="Chronic Pain Management MedicationRequest Profile"/>
+<artifact id="ValueSet/conditions-likely-terminal-for-opioid-prescribing" key="ValueSet-conditions-likely-terminal-for-opioid-prescribing" name="Conditions likely terminal for opioid prescribing"/>
+<artifact id="StructureDefinition/EndOfLifeConditionProblemsHealthConcerns" key="StructureDefinition-EndOfLifeConditionProblemsHealthConcerns" name="End of Life Condition Problems Health Concerns Profile"/>
+<artifact id="StructureDefinition/EndOfLifeEncounterDiagnosis" key="StructureDefinition-EndOfLifeEncounterDiagnosis" name="End of Life Encounter Diagnosis Profile"/>
 <artifact id="StructureDefinition/MMEMedicationRequest" key="StructureDefinition-MMEMedicationRequest" name="MME MedicationRequest Profile"/>
 <artifact id="StructureDefinition/OpioidMedication" key="StructureDefinition-OpioidMedication" name="Opioid Medication Profile"/>
 <artifact id="StructureDefinition/OpioidMedicationRequest" key="StructureDefinition-OpioidMedicationRequest" name="Opioid MedicationRequest Profile"/>
