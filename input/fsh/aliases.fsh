@@ -1,6 +1,7 @@
 // QICore Profiles
 Alias:   $QICoreMedicationRequest = http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationrequest
 Alias:   $QICoreObservation       = http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation-lab
+Alias:   $QICorePatient       = http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient
 
 // USCore Profiles
 Alias:   $USCoreMedication = http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication
