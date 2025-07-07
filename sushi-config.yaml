@@ -11,7 +11,7 @@ name: CDCOpioidCPG
 title: Data Exchange Profiles for 2022 CDC Clinical Practice Guideline for Prescribing Opioids
 description: >-
   Defines exchange expectations for systems that implement the 2022 CDC Clinical Practice Guideline for Prescribing Opioids, both in terms of the data required to evaluate whether recommendations are applicable, as well as the data required to represent proposals resulting from those recommendations.
-status: active
+status: draft
 license: CC0-1.0
 date: 2024-11-27
 version: 1.0.0-cibuild
@@ -40,6 +40,10 @@ publisher:
 extension:
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
     valueCode: cds
+  - url: "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
+    valueCode: draft
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
+    valueInteger: 0
 
 # Those who need more control or want to add additional details to the contact values can use
 # contact directly and follow the format outlined in the ImplementationGuide resource and
@@ -60,13 +64,13 @@ jurisdiction: urn:iso:std:iso:3166#US
 # dependencies:
 dependencies:
   hl7.fhir.us.qicore:
-    uri: http://hl7.org/fhir/us/qicore
+    uri: http://hl7.org/fhir/us/qicore/ImplementationGuide/hl7.fhir.us.qicore
     version: 6.0.0
   hl7.fhir.us.core:
-    uri: http://hl7.org/fhir/us/core
+    uri: http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core
     version: 6.1.0
   hl7.fhir.uv.cpg:
-    uri: http://hl7.org/fhir/uv/cpg
+    uri: http://hl7.org/fhir/uv/cpg/ImplementationGuide/hl7.fhir.uv.cpg
     version: 1.0.0
 
 parameters:
@@ -80,7 +84,7 @@ parameters:
   excludettl: true
   jira-code: us-cdc-opioid-cpg
   path-history: http://hl7.org/fhir/us/cdc-opioid-cpg/history.html
-  special-url: http://fhir.org/guides/cdc/opioid-cds/ValueSet/opioid-analgesics-with-ambulatory-misuse-potential, http://fhir.org/guides/cdc/opioid-cds/ValueSet/amphetamine-drug-urine-screening-tests, http://fhir.org/guides/cdc/opioid-cds/ValueSet/conditions-likely-terminal-for-opioid-prescribing
+  special-url: http://fhir.org/guides/cdc/opioid-cds/ValueSet/opioid-analgesics-with-ambulatory-misuse-potential, http://fhir.org/guides/cdc/opioid-cds/ValueSet/amphetamine-urine-drug-screening-tests, http://fhir.org/guides/cdc/opioid-cds/ValueSet/conditions-likely-terminal-for-opioid-prescribing
 #  auto-oid-root: TBD
 
 pages:

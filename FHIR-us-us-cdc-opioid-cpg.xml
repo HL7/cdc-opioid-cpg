@@ -5,7 +5,7 @@
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
 <artifact id="StructureDefinition/AcutePainManagementMedicationRequest" key="StructureDefinition-AcutePainManagementMedicationRequest" name="Acute Pain Management MedicationRequest Profile"/>
-<artifact id="StructureDefinition/AmphetamineUrineDrugScreeningResultObservation" key="StructureDefinition-AmphetamineUrineDrugScreeningResultObservation" name="Amphetamine Urine Drug Screening Result Observation"/>
+<artifact id="StructureDefinition/AmphetamineUrineDrugScreeningResultObservation" key="StructureDefinition-AmphetamineUrineDrugScreeningResultObservation" name="Amphetamine Urine Drug Screening Result Observation Profile"/>
 <artifact id="ValueSet/amphetamine-drug-urine-screening-tests" key="ValueSet-amphetamine-drug-urine-screening-tests" name="Amphetamine-class drugs and metabolite urine tests"/>
 <artifact id="StructureDefinition/ChronicPainManagementMedicationRequest" key="StructureDefinition-ChronicPainManagementMedicationRequest" name="Chronic Pain Management MedicationRequest Profile"/>
 <artifact id="ValueSet/conditions-likely-terminal-for-opioid-prescribing" key="ValueSet-conditions-likely-terminal-for-opioid-prescribing" name="Conditions likely terminal for opioid prescribing"/>
@@ -14,9 +14,11 @@
 <artifact id="StructureDefinition/MMEMedicationRequest" key="StructureDefinition-MMEMedicationRequest" name="MME MedicationRequest Profile"/>
 <artifact id="StructureDefinition/OpioidMedication" key="StructureDefinition-OpioidMedication" name="Opioid Medication Profile"/>
 <artifact id="StructureDefinition/OpioidMedicationRequest" key="StructureDefinition-OpioidMedicationRequest" name="Opioid MedicationRequest Profile"/>
+<artifact id="StructureDefinition/OpioidReviewUsefulPatient" key="StructureDefinition-OpioidReviewUsefulPatient" name="Opioid Review Useful Patient Profile"/>
 <artifact id="ValueSet/opioid-analgesics-with-ambulatory-misuse-potential" key="ValueSet-opioid-analgesics-with-ambulatory-misuse-potential" name="Opioid analgesics with ambulatory misuse potential"/>
 <artifact id="StructureDefinition/SubacutePainManagementMedicationRequest" key="StructureDefinition-SubacutePainManagementMedicationRequest" name="Subacute Pain Management MedicationRequest Profile"/>
-<artifact id="StructureDefinition/UrineDrugScreeningResultObservation" key="StructureDefinition-UrineDrugScreeningResultObservation" name="Urine Drug Screening Result Observation"/>
+<artifact id="StructureDefinition/UrineDrugScreeningResultObservation" key="StructureDefinition-UrineDrugScreeningResultObservation" name="Urine Drug Screening Result Observation Profile"/>
+<artifact id="Patient/opioid-review-useful" key="Patient-opioid-review-useful" name="opioid-review-useful"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
