@@ -12,3 +12,4 @@ Alias:   $USCoreMedication = http://hl7.org/fhir/us/core/StructureDefinition/us-
 Alias:   $AmphetamineUDSVS        = http://fhir.org/guides/cdc/opioid-cds/ValueSet/amphetamine-urine-drug-screening-tests
 Alias:   $EndOfLifeConditionsVS   = http://fhir.org/guides/cdc/opioid-cds/ValueSet/conditions-likely-terminal-for-opioid-prescribing
 Alias:   $OpioidMedicationVS      = http://fhir.org/guides/cdc/opioid-cds/ValueSet/opioid-analgesics-with-ambulatory-misuse-potential
+Alias:   $SickleCellDiseaseVS = http://fhir.org/guides/cdc/opioid-cds/ValueSet/sickle-cell-diseases
