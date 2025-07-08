@@ -6,16 +6,22 @@
 <artifactPageExtension value="-mappings"/>
 <artifact id="StructureDefinition/AcutePainManagementMedicationRequest" key="StructureDefinition-AcutePainManagementMedicationRequest" name="Acute Pain Management MedicationRequest Profile"/>
 <artifact id="StructureDefinition/AmphetamineUrineDrugScreeningResultObservation" key="StructureDefinition-AmphetamineUrineDrugScreeningResultObservation" name="Amphetamine Urine Drug Screening Result Observation Profile"/>
-<artifact id="ValueSet/amphetamine-drug-urine-screening-tests" key="ValueSet-amphetamine-drug-urine-screening-tests" name="Amphetamine-class drugs and metabolite urine tests"/>
+<artifact id="ValueSet/amphetamine-urine-drug-screening-tests" key="ValueSet-amphetamine-urine-drug-screening-tests" name="Amphetamine-class drugs and metabolite urine tests"/>
 <artifact id="StructureDefinition/ChronicPainManagementMedicationRequest" key="StructureDefinition-ChronicPainManagementMedicationRequest" name="Chronic Pain Management MedicationRequest Profile"/>
 <artifact id="StructureDefinition/MMEMedicationRequest" key="StructureDefinition-MMEMedicationRequest" name="MME MedicationRequest Profile"/>
 <artifact id="StructureDefinition/OpioidMedication" key="StructureDefinition-OpioidMedication" name="Opioid Medication Profile"/>
 <artifact id="StructureDefinition/OpioidMedicationRequest" key="StructureDefinition-OpioidMedicationRequest" name="Opioid MedicationRequest Profile"/>
 <artifact id="StructureDefinition/OpioidReviewUsefulPatient" key="StructureDefinition-OpioidReviewUsefulPatient" name="Opioid Review Useful Patient Profile"/>
 <artifact id="ValueSet/opioid-analgesics-with-ambulatory-misuse-potential" key="ValueSet-opioid-analgesics-with-ambulatory-misuse-potential" name="Opioid analgesics with ambulatory misuse potential"/>
+<artifact id="StructureDefinition/SickleCellEncounterDiagnosisCondition" key="StructureDefinition-SickleCellEncounterDiagnosisCondition" name="Sickle Cell Encounter Diagnosis Condition Profile"/>
+<artifact id="StructureDefinition/SickleCellProblemListHealthConcernCondition" key="StructureDefinition-SickleCellProblemListHealthConcernCondition" name="Sickle Cell Problem List Health Concern Condition Profile"/>
+<artifact id="ValueSet/sickle-cell-diseases" key="ValueSet-sickle-cell-diseases" name="Sickle-cell diseases"/>
 <artifact id="StructureDefinition/SubacutePainManagementMedicationRequest" key="StructureDefinition-SubacutePainManagementMedicationRequest" name="Subacute Pain Management MedicationRequest Profile"/>
 <artifact id="StructureDefinition/UrineDrugScreeningResultObservation" key="StructureDefinition-UrineDrugScreeningResultObservation" name="Urine Drug Screening Result Observation Profile"/>
+<artifact id="Encounter/example" key="Encounter-example" name="example"/>
 <artifact id="Patient/opioid-review-useful" key="Patient-opioid-review-useful" name="opioid-review-useful"/>
+<artifact id="Condition/sickle-cell-encounter-diagnosis" key="Condition-sickle-cell-encounter-diagnosis" name="sickle-cell-encounter-diagnosis"/>
+<artifact id="Condition/sickle-cell-problem-list" key="Condition-sickle-cell-problem-list" name="sickle-cell-problem-list"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
