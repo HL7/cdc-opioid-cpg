@@ -6,3 +6,5 @@ Description: "Defines the essential criteria for a Condition resource with an en
 
 * code from $SickleCellDiseaseVS
 * subject only Reference(OpioidReviewUsefulPatient)
+* encounter only Reference(OpioidReviewUsefulPatientEncounter)
+* encounter 1..1
