@@ -9,17 +9,39 @@
 <artifact id="StructureDefinition/AcutePainManagementMedicationRequest" key="StructureDefinition-AcutePainManagementMedicationRequest" name="Acute Pain Management MedicationRequest Profile"/>
 <artifact id="StructureDefinition/AmphetamineUrineDrugScreeningResultObservation" key="StructureDefinition-AmphetamineUrineDrugScreeningResultObservation" name="Amphetamine Urine Drug Screening Result Observation Profile"/>
 <artifact id="ValueSet/amphetamine-urine-drug-screening-tests" key="ValueSet-amphetamine-urine-drug-screening-tests" name="Amphetamine-class drugs and metabolite urine tests"/>
+<artifact id="StructureDefinition/BarbiturateUrineDrugScreeningResultObservation" key="StructureDefinition-BarbiturateUrineDrugScreeningResultObservation" name="Barbiturate Urine Drug Screening Result Observation Profile"/>
+<artifact id="ValueSet/barbiturate-urine-drug-screening-tests" key="ValueSet-barbiturate-urine-drug-screening-tests" name="Barbiturate urine drug screening tests"/>
+<artifact id="StructureDefinition/BenzodiazepineUrineDrugScreeningResultObservation" key="StructureDefinition-BenzodiazepineUrineDrugScreeningResultObservation" name="Benzodiazepine Urine Drug Screening Result Observation Profile"/>
+<artifact id="ValueSet/benzodiazepine-urine-drug-screening-tests" key="ValueSet-benzodiazepine-urine-drug-screening-tests" name="Benzodiazepine urine drug screening tests"/>
+<artifact id="StructureDefinition/BuprenorphineUrineDrugScreeningResultObservation" key="StructureDefinition-BuprenorphineUrineDrugScreeningResultObservation" name="Buprenorphine Urine Drug Screening Result Observation Profile"/>
+<artifact id="ValueSet/buprenorphine-urine-drug-screening-tests" key="ValueSet-buprenorphine-urine-drug-screening-tests" name="Buprenorphine urine drug screening tests"/>
+<artifact id="StructureDefinition/CannabinoidUrineDrugScreeningResultObservation" key="StructureDefinition-CannabinoidUrineDrugScreeningResultObservation" name="Cannabinoid Urine Drug Screening Result Observation Profile"/>
+<artifact id="ValueSet/cannabinoid-urine-drug-screening-tests" key="ValueSet-cannabinoid-urine-drug-screening-tests" name="Cannabinoid class urine drug screening"/>
 <artifact id="ValueSet/cdc-malignant-cancer-conditions" key="ValueSet-cdc-malignant-cancer-conditions" name="CDC malignant cancer conditions"/>
 <artifact id="StructureDefinition/ChronicPainManagementMedicationRequest" key="StructureDefinition-ChronicPainManagementMedicationRequest" name="Chronic Pain Management MedicationRequest Profile"/>
+<artifact id="StructureDefinition/CocaineUrineDrugScreeningResultObservation" key="StructureDefinition-CocaineUrineDrugScreeningResultObservation" name="Cocaine Urine Drug Screening Result Observation Profile"/>
+<artifact id="ValueSet/cocaine-urine-drug-screening-tests" key="ValueSet-cocaine-urine-drug-screening-tests" name="Cocaine urine drug screening tests"/>
 <artifact id="ValueSet/conditions-likely-terminal-for-opioid-prescribing" key="ValueSet-conditions-likely-terminal-for-opioid-prescribing" name="Conditions likely terminal for opioid prescribing"/>
 <artifact id="StructureDefinition/EndOfLifeEncounterDiagnosis" key="StructureDefinition-EndOfLifeEncounterDiagnosis" name="End of Life Encounter Diagnosis Profile"/>
+<artifact id="StructureDefinition/FentanylUrineDrugScreeningResultObservation" key="StructureDefinition-FentanylUrineDrugScreeningResultObservation" name="Fentanyl Urine Drug Screening Result Observation Profile"/>
+<artifact id="ValueSet/fentanyl-type-urine-drug-screening-tests" key="ValueSet-fentanyl-type-urine-drug-screening-tests" name="Fentanyl-type urine drug screening tests"/>
+<artifact id="ValueSet/general-opiate-urine-drug-screening-tests" key="ValueSet-general-opiate-urine-drug-screening-tests" name="General opiate urine drug screening tests"/>
+<artifact id="StructureDefinition/HeroinUrineDrugScreeningResultObservation" key="StructureDefinition-HeroinUrineDrugScreeningResultObservation" name="Heroin Urine Drug Screening Result Observation Profile"/>
+<artifact id="ValueSet/heroin-urine-drug-screening-tests" key="ValueSet-heroin-urine-drug-screening-tests" name="Heroin urine drug screening tests"/>
 <artifact id="StructureDefinition/EndOfLifeProblemsListHealthConcernCondition" key="StructureDefinition-EndOfLifeProblemsListHealthConcernCondition" name="End of Life Problem List Health Concern Condition Profile"/>
 <artifact id="StructureDefinition/MMEMedicationRequest" key="StructureDefinition-MMEMedicationRequest" name="MME MedicationRequest Profile"/>
+<artifact id="StructureDefinition/MethadoneUrineDrugScreeningResultObservation" key="StructureDefinition-MethadoneUrineDrugScreeningResultObservation" name="Methadone Urine Drug Screening Result Observation Profile"/>
+<artifact id="ValueSet/methadone-urine-drug-screening-tests" key="ValueSet-methadone-urine-drug-screening-tests" name="Methadone urine drug screening tests"/>
+<artifact id="StructureDefinition/OpiateUrineDrugScreeningResultObservation" key="StructureDefinition-OpiateUrineDrugScreeningResultObservation" name="Opiate Urine Drug Screening Result Observation Profile"/>
 <artifact id="StructureDefinition/OpioidMedication" key="StructureDefinition-OpioidMedication" name="Opioid Medication Profile"/>
 <artifact id="StructureDefinition/OpioidMedicationRequest" key="StructureDefinition-OpioidMedicationRequest" name="Opioid MedicationRequest Profile"/>
 <artifact id="StructureDefinition/OpioidReviewUsefulPatientEncounter" key="StructureDefinition-OpioidReviewUsefulPatientEncounter" name="Opioid Review Useful Patient Encounter Encounter Profile"/>
 <artifact id="StructureDefinition/OpioidReviewUsefulPatient" key="StructureDefinition-OpioidReviewUsefulPatient" name="Opioid Review Useful Patient Profile"/>
 <artifact id="ValueSet/opioid-analgesics-with-ambulatory-misuse-potential" key="ValueSet-opioid-analgesics-with-ambulatory-misuse-potential" name="Opioid analgesics with ambulatory misuse potential"/>
+<artifact id="StructureDefinition/OxycodoneUrineDrugScreeningResultObservation" key="StructureDefinition-OxycodoneUrineDrugScreeningResultObservation" name="Oxycodone Urine Drug Screening Result Observation Profile"/>
+<artifact id="ValueSet/oxycodone-urine-drug-screening-tests" key="ValueSet-oxycodone-urine-drug-screening-tests" name="Oxycodone urine drug screening tests"/>
+<artifact id="StructureDefinition/PCPUrineDrugScreeningResultObservation" key="StructureDefinition-PCPUrineDrugScreeningResultObservation" name="PCP Urine Drug Screening Result Observation Profile"/>
+<artifact id="ValueSet/phencyclidine-urine-drug-screening-tests" key="ValueSet-phencyclidine-urine-drug-screening-tests" name="Phencyclidine urine drug screening tests"/>
 <artifact id="StructureDefinition/SickleCellEncounterDiagnosisCondition" key="StructureDefinition-SickleCellEncounterDiagnosisCondition" name="Sickle Cell Encounter Diagnosis Condition Profile"/>
 <artifact id="StructureDefinition/SickleCellProblemListHealthConcernCondition" key="StructureDefinition-SickleCellProblemListHealthConcernCondition" name="Sickle Cell Problem List Health Concern Condition Profile"/>
 <artifact id="ValueSet/sickle-cell-diseases" key="ValueSet-sickle-cell-diseases" name="Sickle-cell diseases"/>
