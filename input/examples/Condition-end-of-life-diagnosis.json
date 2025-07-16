@@ -46,7 +46,7 @@
     "reference": "Patient/opioid-review-useful"
   },
   "encounter": {
-    "reference": "Encounter/example"
+    "reference": "Encounter/opioid-review-useful-patient"
   },
   "onsetDateTime": "2025-05-24T00:00:00-07:00",
   "recordedDate": "2025-05-24T00:00:00-07:00"
