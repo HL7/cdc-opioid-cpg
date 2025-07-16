@@ -25,6 +25,8 @@
 <artifact id="ValueSet/sickle-cell-diseases" key="ValueSet-sickle-cell-diseases" name="Sickle-cell diseases"/>
 <artifact id="StructureDefinition/SubacutePainManagementMedicationRequest" key="StructureDefinition-SubacutePainManagementMedicationRequest" name="Subacute Pain Management MedicationRequest Profile"/>
 <artifact id="StructureDefinition/UrineDrugScreeningResultObservation" key="StructureDefinition-UrineDrugScreeningResultObservation" name="Urine Drug Screening Result Observation Profile"/>
+<artifact id="Condition/active-cancer-diagnosis" key="Condition-active-cancer-diagnosis" name="active-cancer-diagnosis"/>
+<artifact id="Condition/active-cancer-problem-list" key="Condition-active-cancer-problem-list" name="active-cancer-problem-list"/>
 <artifact id="Condition/end-of-life-diagnosis" key="Condition-end-of-life-diagnosis" name="end-of-life-diagnosis"/>
 <artifact id="Condition/end-of-life-problem-list" key="Condition-end-of-life-problem-list" name="end-of-life-problem-list"/>
 <artifact id="Patient/opioid-review-useful" key="Patient-opioid-review-useful" name="opioid-review-useful"/>
