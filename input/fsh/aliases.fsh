@@ -1,6 +1,7 @@
 // QICore Profiles
 Alias:   $QICoreConditionEncounterDiagnosis     = http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-condition-encounter-diagnosis
 Alias:   $QICoreConditionProblemsHealthConcerns = http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-condition-problems-health-concerns
+Alias:   $QICoreEncounter                       = http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter
 Alias:   $QICoreMedicationRequest               = http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationrequest
 Alias:   $QICoreObservation                     = http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation-lab
 Alias:   $QICorePatient                         = http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient

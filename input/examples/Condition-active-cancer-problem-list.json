@@ -1,9 +1,9 @@
 {
   "resourceType": "Condition",
-  "id": "end-of-life-problem-list",
+  "id": "active-cancer-problem-list",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/EndOfLifeProblemsListHealthConcernCondition"
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/ActiveCancerProblemListHealthConcernCondition"
     ]
   },
   "clinicalStatus": {
@@ -41,9 +41,9 @@
   "code": {
     "coding": [
       {
-        "system": "http://snomed.info/sct",
-        "code": "708248004",
-        "display": "End stage liver disease"
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "code": "C00.0",
+        "display": "Malignant neoplasm of external upper lip"
       }
     ]
   },

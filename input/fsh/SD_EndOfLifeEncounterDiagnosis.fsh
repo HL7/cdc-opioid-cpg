@@ -6,3 +6,5 @@ Description: "Defines the essential criteria for an end-of-life care diagnosis i
 
 * code from $EndOfLifeConditionsVS (required)
 * subject only Reference(OpioidReviewUsefulPatient)
+* encounter only Reference(OpioidReviewUsefulPatientEncounter)
+* encounter 1..1
