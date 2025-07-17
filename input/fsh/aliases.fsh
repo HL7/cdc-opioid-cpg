@@ -34,4 +34,5 @@ Alias:   $PainTreatmentPlanVS       = http://fhir.org/guides/cdc/opioid-cds/Valu
 Alias:   $ExtendedReleaseOpioidVS   = http://fhir.org/guides/cdc/opioid-cds/ValueSet/extended-release-opioid-with-ambulatory-misuse-potential
 Alias:   $OpioidMisuseAssessmentVS  = http://fhir.org/guides/cdc/opioid-cds/ValueSet/opioid-misuse-assessment-procedure
 Alias:   $PDMPReviewProcedureVS     = http://fhir.org/guides/cdc/opioid-cds/ValueSet/pdmp-review-procedure
-Alias:   $PDMPDataReviewedVS          = http://fhir.org/guides/cdc/opioid-cds/ValueSet/pdmp-data-reviewed-finding
+Alias:   $PDMPDataReviewedVS        = http://fhir.org/guides/cdc/opioid-cds/ValueSet/pdmp-data-reviewed-finding
+Alias:   $CNSDepressantMedicationVS = http://fhir.org/guides/cdc/opioid-cds/ValueSet/cns-depressant-medications
