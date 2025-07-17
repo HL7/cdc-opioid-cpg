@@ -38,9 +38,11 @@
 <artifact id="StructureDefinition/OpiateUrineDrugScreeningResultObservation" key="StructureDefinition-OpiateUrineDrugScreeningResultObservation" name="Opiate Urine Drug Screening Result Observation Profile"/>
 <artifact id="StructureDefinition/OpioidMedication" key="StructureDefinition-OpioidMedication" name="Opioid Medication Profile"/>
 <artifact id="StructureDefinition/OpioidMedicationRequest" key="StructureDefinition-OpioidMedicationRequest" name="Opioid MedicationRequest Profile"/>
+<artifact id="StructureDefinition/OpioidMisuseAssessmentProcedure" key="StructureDefinition-OpioidMisuseAssessmentProcedure" name="Opioid Misuse Assessment Procedure Profile"/>
 <artifact id="StructureDefinition/OpioidReviewUsefulPatientEncounter" key="StructureDefinition-OpioidReviewUsefulPatientEncounter" name="Opioid Review Useful Patient Encounter Encounter Profile"/>
 <artifact id="StructureDefinition/OpioidReviewUsefulPatient" key="StructureDefinition-OpioidReviewUsefulPatient" name="Opioid Review Useful Patient Profile"/>
 <artifact id="ValueSet/opioid-analgesics-with-ambulatory-misuse-potential" key="ValueSet-opioid-analgesics-with-ambulatory-misuse-potential" name="Opioid analgesics with ambulatory misuse potential"/>
+<artifact id="ValueSet/opioid-misuse-assessment-procedure" key="ValueSet-opioid-misuse-assessment-procedure" name="Opioid misuse assessment procedure"/>
 <artifact id="StructureDefinition/OxycodoneUrineDrugScreeningResultObservation" key="StructureDefinition-OxycodoneUrineDrugScreeningResultObservation" name="Oxycodone Urine Drug Screening Result Observation Profile"/>
 <artifact id="ValueSet/oxycodone-urine-drug-screening-tests" key="ValueSet-oxycodone-urine-drug-screening-tests" name="Oxycodone urine drug screening tests"/>
 <artifact id="StructureDefinition/PCPUrineDrugScreeningResultObservation" key="StructureDefinition-PCPUrineDrugScreeningResultObservation" name="PCP Urine Drug Screening Result Observation Profile"/>
