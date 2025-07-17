@@ -9,7 +9,8 @@ Alias:   $QICorePatient                         = http://hl7.org/fhir/us/qicore/
 Alias:   $QICoreProcedure                       = http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-procedure
 
 // USCore Profiles
-Alias:   $USCoreMedication = http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication
+Alias:   $USCoreMedication        = http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication
+Alias:   $USCoreSimpleObservation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation
 
 // Terminology
 Alias:   $AmphetamineUDSVS          = http://fhir.org/guides/cdc/opioid-cds/ValueSet/amphetamine-urine-drug-screening-tests
@@ -32,3 +33,5 @@ Alias:   $PainManagementProcedureVS = http://fhir.org/guides/cdc/opioid-cds/Valu
 Alias:   $PainTreatmentPlanVS       = http://fhir.org/guides/cdc/opioid-cds/ValueSet/pain-treatment-plan
 Alias:   $ExtendedReleaseOpioidVS   = http://fhir.org/guides/cdc/opioid-cds/ValueSet/extended-release-opioid-with-ambulatory-misuse-potential
 Alias:   $OpioidMisuseAssessmentVS  = http://fhir.org/guides/cdc/opioid-cds/ValueSet/opioid-misuse-assessment-procedure
+Alias:   $PDMPReviewProcedureVS     = http://fhir.org/guides/cdc/opioid-cds/ValueSet/pdmp-review-procedure
+Alias:   $PDMPDataReviewedVS          = http://fhir.org/guides/cdc/opioid-cds/ValueSet/pdmp-data-reviewed-finding
