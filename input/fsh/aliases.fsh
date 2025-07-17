@@ -31,3 +31,4 @@ Alias:   $SickleCellDiseaseVS       = http://fhir.org/guides/cdc/opioid-cds/Valu
 Alias:   $PainManagementProcedureVS = http://fhir.org/guides/cdc/opioid-cds/ValueSet/pain-management-procedure
 Alias:   $PainTreatmentPlanVS       = http://fhir.org/guides/cdc/opioid-cds/ValueSet/pain-treatment-plan
 Alias:   $ExtendedReleaseOpioidVS   = http://fhir.org/guides/cdc/opioid-cds/ValueSet/extended-release-opioid-with-ambulatory-misuse-potential
+Alias:   $OpioidMisuseAssessmentVS  = http://fhir.org/guides/cdc/opioid-cds/ValueSet/opioid-misuse-assessment-procedure
