@@ -24,6 +24,9 @@
 <artifact id="ValueSet/conditions-likely-terminal-for-opioid-prescribing" key="ValueSet-conditions-likely-terminal-for-opioid-prescribing" name="Conditions likely terminal for opioid prescribing"/>
 <artifact id="StructureDefinition/EndOfLifeEncounterDiagnosis" key="StructureDefinition-EndOfLifeEncounterDiagnosis" name="End of Life Encounter Diagnosis Profile"/>
 <artifact id="StructureDefinition/EndOfLifeProblemsListHealthConcernCondition" key="StructureDefinition-EndOfLifeProblemsListHealthConcernCondition" name="End of Life Problem List Health Concern Condition Profile"/>
+<artifact id="StructureDefinition/ExtendedReleaseOpioidMedication" key="StructureDefinition-ExtendedReleaseOpioidMedication" name="Extended Release Opioid Medication Profile"/>
+<artifact id="StructureDefinition/ExtendedReleaseOpioidMedicationRequest" key="StructureDefinition-ExtendedReleaseOpioidMedicationRequest" name="Extended Release Opioid MedicationRequest Profile"/>
+<artifact id="ValueSet/extended-release-opioid-with-ambulatory-misuse-potential" key="ValueSet-extended-release-opioid-with-ambulatory-misuse-potential" name="Extended release opioid with ambulatory misuse potential"/>
 <artifact id="StructureDefinition/FentanylUrineDrugScreeningResultObservation" key="StructureDefinition-FentanylUrineDrugScreeningResultObservation" name="Fentanyl Urine Drug Screening Result Observation Profile"/>
 <artifact id="ValueSet/fentanyl-type-urine-drug-screening-tests" key="ValueSet-fentanyl-type-urine-drug-screening-tests" name="Fentanyl-type urine drug screening tests"/>
 <artifact id="ValueSet/general-opiate-urine-drug-screening-tests" key="ValueSet-general-opiate-urine-drug-screening-tests" name="General opiate urine drug screening tests"/>
@@ -50,6 +53,7 @@
 <artifact id="StructureDefinition/SickleCellProblemListHealthConcernCondition" key="StructureDefinition-SickleCellProblemListHealthConcernCondition" name="Sickle Cell Problem List Health Concern Condition Profile"/>
 <artifact id="ValueSet/sickle-cell-diseases" key="ValueSet-sickle-cell-diseases" name="Sickle-cell diseases"/>
 <artifact id="StructureDefinition/SubacutePainManagementMedicationRequest" key="StructureDefinition-SubacutePainManagementMedicationRequest" name="Subacute Pain Management MedicationRequest Profile"/>
+<artifact id="StructureDefinition/SubacuteOrChronicPainManagementMedicationRequest" key="StructureDefinition-SubacuteOrChronicPainManagementMedicationRequest" name="Subacute or Chronic Pain Management MedicationRequest Profile"/>
 <artifact id="StructureDefinition/UrineDrugScreeningResultObservation" key="StructureDefinition-UrineDrugScreeningResultObservation" name="Urine Drug Screening Result Observation Profile"/>
 <artifact id="Condition/active-cancer-diagnosis" key="Condition-active-cancer-diagnosis" name="active-cancer-diagnosis"/>
 <artifact id="Condition/active-cancer-problem-list" key="Condition-active-cancer-problem-list" name="active-cancer-problem-list"/>
