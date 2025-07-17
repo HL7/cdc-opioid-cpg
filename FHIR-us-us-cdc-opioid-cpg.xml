@@ -46,6 +46,10 @@
 <artifact id="StructureDefinition/OxycodoneUrineDrugScreeningResultObservation" key="StructureDefinition-OxycodoneUrineDrugScreeningResultObservation" name="Oxycodone Urine Drug Screening Result Observation Profile"/>
 <artifact id="ValueSet/oxycodone-urine-drug-screening-tests" key="ValueSet-oxycodone-urine-drug-screening-tests" name="Oxycodone urine drug screening tests"/>
 <artifact id="StructureDefinition/PCPUrineDrugScreeningResultObservation" key="StructureDefinition-PCPUrineDrugScreeningResultObservation" name="PCP Urine Drug Screening Result Observation Profile"/>
+<artifact id="StructureDefinition/PDMPReviewObservation" key="StructureDefinition-PDMPReviewObservation" name="PDMP Review Observation Profile"/>
+<artifact id="StructureDefinition/PDMPRevieProcedure" key="StructureDefinition-PDMPRevieProcedure" name="PDMP Review Procedure Profile"/>
+<artifact id="ValueSet/pdmp-data-reviewed-finding" key="ValueSet-pdmp-data-reviewed-finding" name="PDMP data reviewed finding"/>
+<artifact id="ValueSet/pdmp-review-procedure" key="ValueSet-pdmp-review-procedure" name="PDMP review procedure"/>
 <artifact id="StructureDefinition/PainManagementProcedure" key="StructureDefinition-PainManagementProcedure" name="Pain Management Procedure Profile"/>
 <artifact id="StructureDefinition/PainTreatmentCarePlan" key="StructureDefinition-PainTreatmentCarePlan" name="Pain Treatment CarePlan Profile"/>
 <artifact id="ValueSet/pain-management-procedure" key="ValueSet-pain-management-procedure" name="Pain management procedure"/>
