@@ -21,23 +21,26 @@ This implementation guide proposes a standardized exchange of FHIR profiles that
 
 1. Home & Background – Introduces the opioid crisis context and relationship to the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain.
 
-2. Artifacts – Detailed definitions of every profile, extension, value set, and operation.
+2. [Artifacts](profiles.html) – Detailed definitions of every profile, extension, value set, and operation.
 
-3. Change History & Roadmap – Links to ballot comments and future work items.
+3. [Change History & Roadmap](changes.html) – Links to ballot comments and future work items.
 
 #### Target Audiences
 
 1. EHR and HIT vendors looking to supply opioid-related data in a consistent, reusable format. 
 
-2. Clinical decision support developers looking to retrieve complete, de-duplicated patient context to execute the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain logic distributed in the [2022 CDC Clinical Practice Guideline for Prescribing Opioids IG](https://build.fhir.org/ig/cqframework/opioid-cds-r4/index.html).
+2. Clinical decision support developers looking to retrieve complete patient context to execute the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain logic distributed in the [2022 CDC Clinical Practice Guideline for Prescribing Opioids IG](https://build.fhir.org/ig/cqframework/opioid-cds-r4/index.html).
 
 ### Acknowledgements
 
 This Implementation Guide was made possible by the thoughtful contributions of the following people and organizations:
 
 -	Centers for Disease Control and Prevention (CDC) – clinical subject-matter expertise and reference content for the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain.
-- U.S. Office of the National Coordinator for Health Information Technology (ONC) - identify and develop standards for clinical decision support.
+
+- The Assistant Secretary for Technology Policy/Office of the National Coordinator for Health Information Technology (ASTP) - identify and develop standards for clinical decision support.
+
 -	HL7 Clinical Decision Support Work Group – project sponsorship and ballot reconciliation.
+
 -	Clinical Quality Framework (CQF) Initiative – source content and reference implementations from the 2022 CDC Clinical Practice Guideline for Prescribing Opioids IG.
 
 ### Dependencies
