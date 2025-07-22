@@ -1,5 +1,5 @@
 Profile: CNSDepressantMedication
-Parent: OpioidMedication
+Parent: $USCoreMedication
 Id: CNSDepressantMedication
 Title: "CNS Depressant Medication Profile"
 Description: "Defines a central nervous system depressant medication."

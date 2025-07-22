@@ -4,6 +4,16 @@
   "meta": {
     "profile": [
       "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/OpioidReviewUsefulPatient"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "Opioid Review Useful Patient Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is an opioid review useful patient example for the *Opioid Review Useful Patient Profile*."
+      }
     ]
   },
   "identifier": [

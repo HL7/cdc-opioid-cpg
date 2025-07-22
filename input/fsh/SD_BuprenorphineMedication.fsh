@@ -1,5 +1,5 @@
 Profile: BuprenorphineMedication
-Parent: OpioidMedication
+Parent: $USCoreMedication
 Id: BuprenorphineMedication
 Title: "Buprenorphine Medication Profile"
 Description: "Defines an Buprenorphine class medication."

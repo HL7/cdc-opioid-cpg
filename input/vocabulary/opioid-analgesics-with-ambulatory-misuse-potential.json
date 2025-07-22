@@ -2,21 +2,9 @@
   "resourceType": "ValueSet",
   "id": "opioid-analgesics-with-ambulatory-misuse-potential",
   "meta": {
-    "profile": [ "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
+    "profile": [ "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
   },
   "extension": [ {
-    "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-clinical-focus",
-    "valueString": "All opioid clinical drugs except cough medications, antispasmodics, or those restricted to surgical use only."
-  }, {
-    "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-dataelement-scope",
-    "valueString": "Medication"
-  }, {
-    "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-inclusion-criteria",
-    "valueString": "All opioid-class medications"
-  }, {
-    "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-exclusion-criteria",
-    "valueString": "All medications including ingredients intended to treat cough or act as an antispasmodic. All injectable forms."
-  }, {
     "url": "http://hl7.org/fhir/StructureDefinition/valueset-author",
     "valueContactDetail": {
       "name": "MD Partners, Inc.",
@@ -41,7 +29,6 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/opioid-analgesics-with-ambulatory-misuse-potential",
   "name": "OPIOID_ANALGESICS_WITH_AMBULATORY_MISUSE_POTENTIAL",
   "title": "Opioid analgesics with ambulatory misuse potential",
-  "status": "active",
   "experimental": false,
   "date": "2025-02-24T13:06:46-07:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

@@ -1,5 +1,5 @@
 Profile: OxycodoneMedicationRequest
-Parent: OpioidMedicationRequest
+Parent: OpioidReviewUsefulPatientMedicationRequest
 Id: OxycodoneMedicationRequest
 Title: "Oxycodone MedicationRequest Profile"
 Description: "Defines the essential criteria for an Oxycodone class medication request."

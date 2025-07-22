@@ -1,5 +1,5 @@
 Profile: BenzoMedicationRequest
-Parent: OpioidMedicationRequest
+Parent: OpioidReviewUsefulPatientMedicationRequest
 Id: BenzoMedicationRequest
 Title: "Benzo MedicationRequest Profile"
 Description: "Defines the essential criteria for an Benzodiazepine class medication request."

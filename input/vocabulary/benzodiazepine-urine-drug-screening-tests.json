@@ -25,22 +25,6 @@
       }
     },
     {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-clinical-focus",
-      "valueString": "Presumed general urine tests for benzodiazepines that are not specific to a particular substance."
-    },
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-dataelement-scope",
-      "valueString": "Urine test"
-    },
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-inclusion-criteria",
-      "valueString": "Codes"
-    },
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-exclusion-criteria",
-      "valueString": "None"
-    },
-    {
       "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
       "valueCode": "computable"
     },
@@ -56,7 +40,6 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/benzodiazepine-urine-drug-screening-tests",
   "name": "BENZODIAZEPINE_URINE_DRUG_SCREENING_TESTS",
   "title": "Benzodiazepine urine drug screening tests",
-  "status": "draft",
   "experimental": true,
   "date": "2024-04-15T12:22:34-06:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

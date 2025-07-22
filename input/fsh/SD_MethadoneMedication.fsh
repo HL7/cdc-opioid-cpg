@@ -1,5 +1,5 @@
 Profile: MethadoneMedication
-Parent: OpioidMedication
+Parent: $USCoreMedication
 Id: MethadoneMedication
 Title: "Methadone Medication Profile"
 Description: "Defines an Methadone class medication."

@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "cns-depressant-medications",
   "meta": {
-    "profile": [ "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
+    "profile": [ "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
   },
   "extension": [ {
     "url": "http://hl7.org/fhir/StructureDefinition/valueset-author",
@@ -29,7 +29,6 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/cns-depressant-medications",
   "name": "CNS_DEPRESSANT_MEDICATIONS",
   "title": "CNS depressant medications",
-  "status": "active",
   "experimental": false,
   "date": "2025-02-24T13:06:43-07:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

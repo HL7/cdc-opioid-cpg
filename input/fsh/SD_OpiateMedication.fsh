@@ -1,5 +1,5 @@
 Profile: OpiateMedication
-Parent: OpioidMedication
+Parent: $USCoreMedication
 Id: OpiateMedication
 Title: "Opiate Medication Profile"
 Description: "Defines an Opiate class medication."

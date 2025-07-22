@@ -3,28 +3,11 @@
   "id": "oxycodone-medications",
   "meta": {
     "profile": [
-      "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset",
       "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset",
       "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset"
     ]
   },
   "extension": [
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-clinical-focus",
-      "valueString": "Oxycodone medications"
-    },
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-dataelement-scope",
-      "valueString": "Medication"
-    },
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-inclusion-criteria",
-      "valueString": "All Oxycodone medications"
-    },
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-exclusion-criteria",
-      "valueString": "None"
-    },
     {
       "url": "http://hl7.org/fhir/StructureDefinition/valueset-author",
       "valueContactDetail": {
@@ -65,7 +48,6 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/oxycodone-medications",
   "name": "OXYCODONE_MEDICATIONS",
   "title": "Oxycodone Medications",
-  "status": "active",
   "experimental": false,
   "date": "2025-02-24T13:06:49-07:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

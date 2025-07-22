@@ -1,5 +1,5 @@
 Profile: BarbiturateMedication
-Parent: OpioidMedication
+Parent: $USCoreMedication
 Id: BarbiturateMedication
 Title: "Barbiturate Medication Profile"
 Description: "Defines an Barbiturate class medication."

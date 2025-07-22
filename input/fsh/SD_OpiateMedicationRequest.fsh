@@ -1,5 +1,5 @@
 Profile: OpiateMedicationRequest
-Parent: OpioidMedicationRequest
+Parent: OpioidReviewUsefulPatientMedicationRequest
 Id: OpiateMedicationRequest
 Title: "Opiate MedicationRequest Profile"
 Description: "Defines the essential criteria for an Opiate class medication request."

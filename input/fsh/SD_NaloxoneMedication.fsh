@@ -1,5 +1,5 @@
 Profile: NaloxoneMedication
-Parent: OpioidMedication
+Parent: $USCoreMedication
 Id: NaloxoneMedication
 Title: "Naloxone Medication Profile"
 Description: "Defines an Naloxone class medication."
