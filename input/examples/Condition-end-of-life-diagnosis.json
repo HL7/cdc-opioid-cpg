@@ -4,6 +4,16 @@
   "meta": {
     "profile": [
       "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/EndOfLifeEncounterDiagnosis"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "End of Life Diagnosis Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is an end of life diagnosis example for the *End of Life Diagnosis Condition Profile*."
+      }
     ]
   },
   "clinicalStatus": {

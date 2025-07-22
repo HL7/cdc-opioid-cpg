@@ -1,5 +1,5 @@
 Profile: OxycodoneMedication
-Parent: OpioidMedication
+Parent: $USCoreMedication
 Id: OxycodoneMedication
 Title: "Oxycodone Medication Profile"
 Description: "Defines an Oxycodone class medication."

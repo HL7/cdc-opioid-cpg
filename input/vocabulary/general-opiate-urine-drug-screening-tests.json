@@ -2,21 +2,9 @@
   "resourceType": "ValueSet",
   "id": "general-opiate-urine-drug-screening-tests",
   "meta": {
-    "profile": [ "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
+    "profile": [ "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
   },
   "extension": [ {
-    "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-clinical-focus",
-    "valueString": "Presumed general urine tests for naturally occurring opioids (i.e. opiates) that are not specific to a particular substance based upon the inclusion of the word 'opiates' in the long name."
-  }, {
-    "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-dataelement-scope",
-    "valueString": "Urine test"
-  }, {
-    "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-inclusion-criteria",
-    "valueString": "Codes"
-  }, {
-    "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-exclusion-criteria",
-    "valueString": "None"
-  }, {
     "url": "http://hl7.org/fhir/StructureDefinition/valueset-author",
     "valueContactDetail": {
       "name": "MD Partners, Inc.",
@@ -41,7 +29,6 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/general-opiate-urine-drug-screening-tests",
   "name": "GENERAL_OPIATE_URINE_DRUG_SCREENING_TESTS",
   "title": "General opiate urine drug screening tests",
-  "status": "active",
   "experimental": false,
   "date": "2023-05-25T18:08:12-06:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

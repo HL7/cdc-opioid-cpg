@@ -1,5 +1,5 @@
 Profile: AmphetamineMedicationRequest
-Parent: OpioidMedicationRequest
+Parent: OpioidReviewUsefulPatientMedicationRequest
 Id: AmphetamineMedicationRequest
 Title: "Amphetamine MedicationRequest Profile"
 Description: "Defines the essential criteria for an Amphetamine class medication request."

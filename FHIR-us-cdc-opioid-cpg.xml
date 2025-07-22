@@ -6,6 +6,7 @@
 <artifactPageExtension value="-mappings"/>
 <artifact id="StructureDefinition/ActiveCancerEncounterDiagnosisCondition" key="StructureDefinition-ActiveCancerEncounterDiagnosisCondition" name="Active Cancer Encounter Diagnosis Condition Profile"/>
 <artifact id="StructureDefinition/ActiveCancerProblemListHealthConcernCondition" key="StructureDefinition-ActiveCancerProblemListHealthConcernCondition" name="Active Cancer Problem List Health Concern Condition Profile"/>
+<artifact id="MedicationRequest/acute-pain-management" key="MedicationRequest-acute-pain-management" name="Acute Pain Management Example"/>
 <artifact id="StructureDefinition/AcutePainManagementMedicationRequest" key="StructureDefinition-AcutePainManagementMedicationRequest" name="Acute Pain Management MedicationRequest Profile"/>
 <artifact id="StructureDefinition/AmphetamineMedication" key="StructureDefinition-AmphetamineMedication" name="Amphetamine Medication Profile"/>
 <artifact id="StructureDefinition/AmphetamineMedicationRequest" key="StructureDefinition-AmphetamineMedicationRequest" name="Amphetamine MedicationRequest Profile"/>

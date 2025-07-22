@@ -4,6 +4,16 @@
   "meta": {
     "profile": [
       "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/SickleCellEncounterDiagnosisCondition"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "Sickle Cell Encounter Diagnosis Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is a sickle cell encounter diagnosis example for the *Sickle Cell Encounter Diagnosis Condition Profile*."
+      }
     ]
   },
   "clinicalStatus": {

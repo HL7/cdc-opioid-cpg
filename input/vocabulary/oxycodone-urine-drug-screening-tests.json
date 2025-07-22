@@ -25,22 +25,6 @@
       }
     },
     {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-clinical-focus",
-      "valueString": "Presumed general urine tests for oxycodone."
-    },
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-dataelement-scope",
-      "valueString": "Urine test"
-    },
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-inclusion-criteria",
-      "valueString": "Codes"
-    },
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-exclusion-criteria",
-      "valueString": "None"
-    },
-    {
       "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
       "valueCode": "computable"
     },

@@ -1,5 +1,5 @@
 Profile: BarbiturateMedicationRequest
-Parent: OpioidMedicationRequest
+Parent: OpioidReviewUsefulPatientMedicationRequest
 Id: BarbiturateMedicationRequest
 Title: "Barbiturate MedicationRequest Profile"
 Description: "Defines the essential criteria for an Barbiturate class medication request."

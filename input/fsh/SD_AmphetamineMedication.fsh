@@ -1,5 +1,5 @@
 Profile: AmphetamineMedication
-Parent: OpioidMedication
+Parent: $USCoreMedication
 Id: AmphetamineMedication
 Title: "Amphetamine Medication Profile"
 Description: "Defines an Amphetamine class medication."

@@ -2,21 +2,9 @@
   "resourceType": "ValueSet",
   "id": "conditions-likely-terminal-for-opioid-prescribing",
   "meta": {
-    "profile": [ "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
+    "profile": [ "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
   },
   "extension": [ {
-    "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-clinical-focus",
-    "valueString": "Conditions that generally are thought to have terminal prognosis"
-  }, {
-    "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-dataelement-scope",
-    "valueString": "Condition"
-  }, {
-    "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-inclusion-criteria",
-    "valueString": "Conditions due to Malignancies, pancreatic cancer, hepatic failure that are often associated with chronic pain."
-  }, {
-    "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-exclusion-criteria",
-    "valueString": "Clinical conditions not thought to have a high likelyhood of near-term mortality and non-condition-specific findings."
-  }, {
     "url": "http://hl7.org/fhir/StructureDefinition/valueset-author",
     "valueContactDetail": {
       "name": "MD Partners, Inc.",
@@ -53,7 +41,6 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/conditions-likely-terminal-for-opioid-prescribing",
   "name": "CONDITIONS_LIKELY_TERMINAL_FOR_OPIOID_PRESCRIBING",
   "title": "Conditions likely terminal for opioid prescribing",
-  "status": "active",
   "experimental": false,
   "date": "2023-05-25T18:37:55-06:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

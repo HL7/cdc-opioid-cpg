@@ -25,22 +25,6 @@
       }
     },
     {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-clinical-focus",
-      "valueString": "Presumed general urine tests for heroin and metabolites."
-    },
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-dataelement-scope",
-      "valueString": "Urine test"
-    },
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-inclusion-criteria",
-      "valueString": "Codes"
-    },
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-exclusion-criteria",
-      "valueString": "None"
-    },
-    {
       "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
       "valueCode": "computable"
     },
@@ -64,7 +48,6 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/heroin-urine-drug-screening-tests",
   "name": "HEROIN_URINE_DRUG_SCREENING_TESTS",
   "title": "Heroin urine drug screening tests",
-  "status": "draft",
   "experimental": true,
   "date": "2024-04-15T12:22:34-06:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

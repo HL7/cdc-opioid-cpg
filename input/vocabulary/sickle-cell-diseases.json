@@ -2,21 +2,9 @@
   "resourceType": "ValueSet",
   "id": "sickle-cell-diseases",
   "meta": {
-    "profile": [ "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
+    "profile": [ "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
   },
   "extension": [ {
-    "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-clinical-focus",
-    "valueString": "Conditions due to Sickle-cell that can cause painful crisis to be used as exclusions for opioid use recommendations"
-  }, {
-    "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-dataelement-scope",
-    "valueString": "Condition"
-  }, {
-    "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-inclusion-criteria",
-    "valueString": "Coditions that cause red blood cell sickling"
-  }, {
-    "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-exclusion-criteria",
-    "valueString": "Any sickle-cell disorder that does not result in painful crisis"
-  }, {
     "url": "http://hl7.org/fhir/StructureDefinition/valueset-author",
     "valueContactDetail": {
       "name": "MD Partners, Inc.",
@@ -53,7 +41,6 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/sickle-cell-diseases",
   "name": "SICKLE_CELL_DISEASES",
   "title": "Sickle-cell diseases",
-  "status": "active",
   "experimental": false,
   "date": "2023-05-25T18:08:12-06:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

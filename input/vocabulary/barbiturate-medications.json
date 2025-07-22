@@ -3,28 +3,11 @@
   "id": "barbiturate-medications",
   "meta": {
     "profile": [
-      "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset",
       "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset",
       "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset"
     ]
   },
   "extension": [
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-clinical-focus",
-      "valueString": "The purpose of this value set is to represent concepts for barbiturate medications"
-    },
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-dataelement-scope",
-      "valueString": "Medication"
-    },
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-inclusion-criteria",
-      "valueString": "Includes amobarbital, butabarbital, butalbital, pentobarbital, phenobarbital and secobarbital. Includes concepts that represent generic, human use and prescribable medications"
-    },
-    {
-      "url": "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset-exclusion-criteria",
-      "valueString": "Excludes concepts that represent non-prescribable or branded drugs and excludes concepts that represent components or ingredients"
-    },
     {
       "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
       "valueCode": "computable"
@@ -45,7 +28,6 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/barbiturate-medications",
   "name": "BARBITURATE_MEDICATIONS",
   "title": "Barbiturate Medications",
-  "status": "active",
   "experimental": false,
   "date": "2025-02-24T13:06:41-07:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

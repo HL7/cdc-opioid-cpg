@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "pdmp-data-reviewed-finding",
   "meta": {
-    "profile": [ "http://fhir.org/guides/cdc/opioid-cds/StructureDefinition/cdc-valueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
+    "profile": [ "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
   },
   "extension": [ {
     "url": "http://hl7.org/fhir/StructureDefinition/valueset-author",
@@ -41,7 +41,6 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/pdmp-data-reviewed-finding",
   "name": "PDMP_DATA_REVIEWED_FINDING",
   "title": "PDMP data reviewed finding",
-  "status": "active",
   "experimental": false,
   "date": "2023-05-25T18:08:12-06:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",
