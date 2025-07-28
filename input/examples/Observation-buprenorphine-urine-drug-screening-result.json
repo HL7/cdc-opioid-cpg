@@ -1,0 +1,50 @@
+{
+  "resourceType": "Observation",
+  "id": "buprenorphine-urine-drug-screening-result",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/BuprenorphineUrineDrugScreeningResultObservation"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "Buprenorphine Urine Drug Screening Result Observation Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is a buprenorphine UDS result example for the *Buprenorphine Urine Drug Screening Result Observation Profile*."
+      }
+    ]
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "38373-7",
+        "display": "Buprenorphine+Nor Ur Ql"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/opioid-review-useful"
+  },
+  "effectiveDateTime": "2025-07-01",
+  "performer": [
+    {
+      "reference": "PractitionerRole/example"
+    }
+  ],
+  "valueString": "negative"
+}

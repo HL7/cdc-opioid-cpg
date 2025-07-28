@@ -1,6 +1,6 @@
-Profile: PDMPRevieProcedure
+Profile: PDMPReviewProcedure
 Parent: QICoreProcedure
-Id: PDMPRevieProcedure
+Id: PDMPReviewProcedure
 Title: "PDMP Review Procedure Profile"
 Description: "Specifies the essential criteria for representing a PDMP review procedure."
 

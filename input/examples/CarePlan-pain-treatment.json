@@ -1,0 +1,41 @@
+{
+  "resourceType": "CarePlan",
+  "id": "pain-treatment",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/PainTreatmentCarePlan"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "Pain Treatment Careplan Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is a pain treatment CarePlan example for the *Pain Treatment CarePlan Profile*."
+      }
+    ]
+  },
+  "status": "active",
+  "intent": "plan",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "80764-4",
+          "display": "Pain medicine Plan of care note"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/opioid-review-useful"
+  },
+  "created": "2025-07-01"
+}

@@ -1,0 +1,29 @@
+{
+  "resourceType": "Medication",
+  "id": "cns-depressant",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/CNSDepressantMedication"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "Central Nervous System Depressant Medication Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is a cns depressant Medication example for the *CNSDepressant Medication Profile*."
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "904368",
+        "display": "benzphetamine hydrochloride 50 MG Oral Tablet"
+      }
+    ]
+  },
+  "status": "active"
+}

@@ -1,0 +1,50 @@
+{
+  "resourceType": "Observation",
+  "id": "oxycodone-urine-drug-screening-result",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/OxycodoneUrineDrugScreeningResultObservation"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "Oxycodone Urine Drug Screening Result Observation Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is an oxycodone UDS result example for the *Oxycodone Urine Drug Screening Result Observation Profile*."
+      }
+    ]
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "89302-4",
+        "display": "Noroxymorphone Ur Ql Scn"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/opioid-review-useful"
+  },
+  "effectiveDateTime": "2025-07-01",
+  "performer": [
+    {
+      "reference": "PractitionerRole/example"
+    }
+  ],
+  "valueString": "NEG"
+}

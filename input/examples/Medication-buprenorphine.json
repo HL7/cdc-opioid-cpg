@@ -1,0 +1,29 @@
+{
+  "resourceType": "Medication",
+  "id": "buprenorphine",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/BuprenorphineMedication"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "Buprenorphine Medication Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is a buprenorphine Medication example for the *Buprenorphine Medication Profile*."
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "1010603",
+        "display": "buprenorphine 2 MG / naloxone 0.5 MG Sublingual Film [Suboxone]"
+      }
+    ]
+  },
+  "status": "active"
+}

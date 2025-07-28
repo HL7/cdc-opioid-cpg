@@ -1,0 +1,29 @@
+{
+  "resourceType": "Medication",
+  "id": "opiate",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/OpiateMedication"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "Opiate Medication Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is an opiate Medication example for the *Opiate Medication Profile*."
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "993837",
+        "display": "acetaminophen 300 MG / codeine phosphate 30 MG Oral Tablet [Tylenol with Codeine]"
+      }
+    ]
+  },
+  "status": "active"
+}

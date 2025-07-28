@@ -1,0 +1,29 @@
+{
+  "resourceType": "Medication",
+  "id": "extended-release-opioid",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/ExtendedReleaseOpioidMedication"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "Extended Release Opioid Medication Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is an extended release opioid Medication example for the *Extended Release Opioid Medication Profile*."
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "898611",
+        "display": "12 HR hydromorphone hydrochloride 2 MG Extended Release Oral Capsule"
+      }
+    ]
+  },
+  "status": "active"
+}

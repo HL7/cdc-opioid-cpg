@@ -1,0 +1,16 @@
+{
+  "resourceType": "Parameters",
+  "id": "manifest",
+  "meta": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "CDCOpioidCPG Manifest"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This Manifest is used to manage and resolve canonical resource versions within the CDCOpioidCPG."
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resourceType": "Procedure",
+  "id": "opioid-misuse-assessment",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/OpioidMisuseAssessmentProcedure"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "Opioid Misuse Assessment Procedure Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is an opioid misuse assessment Procedure example for the *Opioid Misuse Assessment Procedure Profile*."
+      }
+    ]
+  },
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "454281000124100",
+        "display": "Assessment of risk for opioid abuse (procedure)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/opioid-review-useful"
+  },
+  "performedDateTime": "2025-07-21"
+}
