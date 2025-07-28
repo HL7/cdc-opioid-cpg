@@ -19,9 +19,9 @@ Severity: #error
 * expression = "exists(((high.value.toString() + high.unit).toQuantity() >= 28 days))"
 
 Invariant: subacute-or-chronic-pain-required-elements-invariant
-Description: "One of dosageInstruction.timing.repeat.bounds[x] or dispenseRequest.expectedSupplyDuration SHALL be present."
+Description: "One of courseOfTherapyType, dosageInstruction.timing.repeat.bounds[x] or dispenseRequest.expectedSupplyDuration SHALL be present."
 Severity: #error
-* expression = "dosageInstruction.timing.repeat.bounds.exists() or dispenseRequest.expectedSupplyDuration.exists()"
+* expression = "courseOfTherapyType.exists() or dosageInstruction.timing.repeat.bounds.exists() or dispenseRequest.expectedSupplyDuration.exists()"
 
 Profile: SubacuteOrChronicPainManagementMedicationRequest
 Parent: OpioidMedicationRequest
@@ -29,6 +29,8 @@ Id: SubacuteOrChronicPainManagementMedicationRequest
 Title: "Subacute or Chronic Pain Management MedicationRequest Profile"
 Description: "Defines the essential criteria for a MedicationRequest prescribed for subacute or chronic pain management with a treatment duration of 28 days or more."
 
+* courseOfTherapyType MS
+* courseOfTherapyType = http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy#continuous
 * dosageInstruction.timing.repeat.boundsPeriod MS
 * dosageInstruction.timing.repeat.boundsPeriod obeys subacute-or-chronic-pain-bounds-period-invariant
 * dosageInstruction.timing.repeat.boundsDuration MS

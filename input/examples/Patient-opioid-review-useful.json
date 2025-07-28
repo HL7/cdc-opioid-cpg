@@ -19,8 +19,18 @@
   "identifier": [
     {
       "use": "usual",
-      "system": "urn:ietf:rfc:3986",
-      "value": "http://example.com/Patient/12345"
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record Number"
+          }
+        ],
+        "text": "Medical Record Number"
+      },
+      "system": "http://example.org",
+      "value": "12345"
     }
   ],
   "name": [

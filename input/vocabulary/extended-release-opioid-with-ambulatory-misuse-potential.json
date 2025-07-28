@@ -2,10 +2,10 @@
   "resourceType": "ValueSet",
   "id": "extended-release-opioid-with-ambulatory-misuse-potential",
   "meta": {
-    "profile": [ "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
+    "profile": [ "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-expandedvalueset" ]
   },
   "extension": [ {
-    "url": "http://hl7.org/fhir/StructureDefinition/valueset-author",
+    "url": "http://hl7.org/fhir/StructureDefinition/artifact-author",
     "valueContactDetail": {
       "name": "MD Partners, Inc.",
       "telecom": [ {
@@ -14,14 +14,8 @@
       } ]
     }
   }, {
-    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
-    "valueCode": "computable"
-  }, {
-    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
-    "valueCode": "executable"
-  }, {
-    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-usageWarning",
-    "valueString": "This value set contains a point-in-time expansion enumerating the codes that meet the value set intent. As new versions of the code systems used by the value set are released, the contents of this expansion will need to be updated to incorporate newly defined codes that meet the value set intent. Before, and periodically during production use, the value set expansion contents SHOULD be updated. The value set expansion specifies the timestamp when the expansion was produced, SHOULD contain the parameters used for the expansion, and SHALL contain the codes that are obtained by evaluating the value set definition. If this is ONLY an executable value set, a distributable definition of the value set must be obtained to compute the updated expansion."
+    "url": "http://hl7.org/fhir/StructureDefinition/valueset-warning",
+    "valueMarkdown": "This value set contains a point-in-time expansion enumerating the codes that meet the value set intent. As new versions of the code systems used by the value set are released, the contents of this expansion will need to be updated to incorporate newly defined codes that meet the value set intent. Before, and periodically during production use, the value set expansion contents SHOULD be updated."
   }, {
     "url": "http://hl7.org/fhir/StructureDefinition/valueset-rules-text",
     "valueMarkdown": "Step 1:\r\nExpand the value set \"Opioids with Opioid analgesic with ambulatory misuse potential\" and then remove concepts that are long acting:\r\n\r\nStep 2:\r\nFilter the result to only select concepts that are a drug with Methadone Ingredient, or have one of the following dose forms: 316943 Extended Release Oral Capsule, 316945 Extended Release Oral Tablet, 316946 Extended Release Oral Tablet, 316987 Transdermal System. To do this filter the list by only including descriptions that have one of the following strings: \"Extended Release\" OR \"Transdermal\" OR \"Methadone\"."
@@ -51,6 +45,12 @@
   "expansion": {
     "timestamp": "2025-02-24T13:06:49-07:00",
     "total": 183,
+    "parameter": [
+      {
+        "name": "system-version",
+        "valueString": "03042024"
+      }
+    ],
     "contains": [
       {
         "system": "http://www.nlm.nih.gov/research/umls/rxnorm",

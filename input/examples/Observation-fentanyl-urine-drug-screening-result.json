@@ -1,0 +1,50 @@
+{
+  "resourceType": "Observation",
+  "id": "fentanyl-urine-drug-screening-result",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/FentanylUrineDrugScreeningResultObservation"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "Fentanyl Urine Drug Screening Result Observation Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is a fentanyl UDS result example for the *Fentanyl Urine Drug Screening Result Observation Profile*."
+      }
+    ]
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "74372-4",
+        "display": "Acetyl fentanyl [Mass/volume] in Urine"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/opioid-review-useful"
+  },
+  "effectiveDateTime": "2025-07-01",
+  "performer": [
+    {
+      "reference": "PractitionerRole/example"
+    }
+  ],
+  "valueString": "negative"
+}

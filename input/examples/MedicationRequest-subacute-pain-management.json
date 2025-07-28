@@ -1,0 +1,68 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "subacute-pain-management",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/SubacutePainManagementMedicationRequest"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "Subacute Pain Management MedicationRequest Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is a subacute pain management MedicationRequest example for the *Subacute Pain Management MedicationRequest Profile*."
+      }
+    ]
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "1010603",
+        "display": "Suboxone 2 MG / 0.5 MG Sublingual Film"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/opioid-review-useful"
+  },
+  "authoredOn": "2025-07-21",
+  "requester": {
+    "reference": "Practitioner/example"
+  },
+  "dosageInstruction": [
+    {
+      "timing": {
+        "repeat": {
+          "boundsPeriod": {
+            "start": "2025-07-01",
+            "end": "2025-07-30"
+          },
+          "frequency": 1,
+          "period": 1.0,
+          "periodUnit": "d"
+        }
+      },
+      "asNeededBoolean": false,
+      "doseAndRate": [
+        {
+          "doseQuantity": {
+            "value": 1.0,
+            "unit": "film"
+          }
+        }
+      ]
+    }
+  ],
+  "dispenseRequest": {
+    "validityPeriod": {
+      "start": "2025-07-01",
+      "end": "2025-07-30"
+    },
+    "numberOfRepeatsAllowed": 1
+  }
+}

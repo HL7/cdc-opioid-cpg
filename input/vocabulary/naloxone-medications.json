@@ -2,10 +2,10 @@
   "resourceType": "ValueSet",
   "id": "naloxone-medications",
   "meta": {
-    "profile": [ "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablevalueset", "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
+    "profile": [ "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-expandedvalueset" ]
   },
   "extension": [ {
-    "url": "http://hl7.org/fhir/StructureDefinition/valueset-author",
+    "url": "http://hl7.org/fhir/StructureDefinition/artifact-author",
     "valueContactDetail": {
       "name": "MD Partners, Inc.",
       "telecom": [ {
@@ -14,14 +14,8 @@
       } ]
     }
   }, {
-    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
-    "valueCode": "computable"
-  }, {
-    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
-    "valueCode": "executable"
-  }, {
-    "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-usageWarning",
-    "valueString": "This value set contains a point-in-time expansion enumerating the codes that meet the value set intent. As new versions of the code systems used by the value set are released, the contents of this expansion will need to be updated to incorporate newly defined codes that meet the value set intent. Before, and periodically during production use, the value set expansion contents SHOULD be updated. The value set expansion specifies the timestamp when the expansion was produced, SHOULD contain the parameters used for the expansion, and SHALL contain the codes that are obtained by evaluating the value set definition. If this is ONLY an executable value set, a distributable definition of the value set must be obtained to compute the updated expansion."
+    "url": "http://hl7.org/fhir/StructureDefinition/valueset-warning",
+    "valueMarkdown": "This value set contains a point-in-time expansion enumerating the codes that meet the value set intent. As new versions of the code systems used by the value set are released, the contents of this expansion will need to be updated to incorporate newly defined codes that meet the value set intent. Before, and periodically during production use, the value set expansion contents SHOULD be updated."
   }, {
     "url": "http://hl7.org/fhir/StructureDefinition/valueset-rules-text",
     "valueMarkdown": "https://mor.nlm.nih.gov/RxMix/ \r\nScript:\r\nStep 1 \r\nCreate Batch text input file (Naloxone.txt) with following RxNorm identifier for the ingredient (TTY=IN) as the only concept within the file: \r\n7242       \r\n\r\nStep 2\r\nSubmit batch job using the above Naloxone.txt as the input file to following workflow by uploading a workflow file (naloxone-wf.config) with the following text in the file:  <WFE><filteredOutputs>RXCUI|name|term_type</filteredOutputs><input>NOINPUT</input><FS><service>NOINPUT</service><function>getRelatedByType</function><level>0</level><paramSize>2</paramSize><param order ='0'>?</param><param order ='1'>BPCK,GPCK,SBD,SCD</param></FS></WFE>"
@@ -51,6 +45,12 @@
   "expansion": {
     "timestamp": "2025-02-24T13:06:52-07:00",
     "total": 50,
+    "parameter": [
+      {
+        "name": "system-version",
+        "valueString": "03042024"
+      }
+    ],
     "contains": [
       {
         "system": "http://www.nlm.nih.gov/research/umls/rxnorm",

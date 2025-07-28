@@ -1,0 +1,29 @@
+{
+  "resourceType": "Medication",
+  "id": "barbiturate",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/BarbiturateMedication"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "Barbiturate Medication Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is a barbiturate Medication example for the *Barbiturate Medication Profile*."
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "1100907",
+        "display": "acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule [Capacet]"
+      }
+    ]
+  },
+  "status": "active"
+}

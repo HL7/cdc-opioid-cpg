@@ -1,0 +1,29 @@
+{
+  "resourceType": "Medication",
+  "id": "opioid",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/OpioidMedication"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "Opioid Medication Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is an opioid Medication example for the *Opioid Medication Profile*."
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "835605",
+        "display": "tramadol hydrochloride 50 MG Oral Tablet [Ultram]"
+      }
+    ]
+  },
+  "status": "active"
+}
