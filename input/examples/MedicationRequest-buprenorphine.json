@@ -1,0 +1,68 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "buprenorphine",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/BuprenorphineMedicationRequest"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "Buprenorphine MedicationRequest Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is a buprenorphine MedicationRequest example for the *Buprenorphine MedicationRequest Profile*."
+      }
+    ]
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationReference": {
+    "reference": "Medication/buprenorphine"
+  },
+  "subject": {
+    "reference": "Patient/opioid-review-useful"
+  },
+  "authoredOn": "2025-07-21",
+  "requester": {
+    "reference": "Practitioner/example"
+  },
+  "courseOfTherapyType": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+        "code": "continuous"
+      }
+    ]
+  },
+  "dosageInstruction": [
+    {
+      "timing": {
+        "repeat": {
+          "frequency": 1,
+          "period": 1.0,
+          "periodUnit": "d"
+        }
+      },
+      "asNeededBoolean": false,
+      "doseAndRate": [
+        {
+          "doseQuantity": {
+            "value": 1,
+            "unit": "TAB",
+            "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+            "code": "TAB"
+          }
+        }
+      ]
+    }
+  ],
+  "dispenseRequest": {
+    "validityPeriod": {
+      "start": "2025-07-21T00:00:00-07:00",
+      "end": "2025-08-22T00:00:00-07:00"
+    },
+    "numberOfRepeatsAllowed": 1
+  }
+}

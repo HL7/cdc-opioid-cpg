@@ -1,0 +1,29 @@
+{
+  "resourceType": "Medication",
+  "id": "amphetamine",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/AmphetamineMedication"
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+        "valueString": "Amphetamine Medication Example"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+        "valueMarkdown": "This is an amphetamine Medication example for the *Amphetamine Medication Profile*."
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "904372",
+        "display": "benzphetamine hydrochloride 25 MG Oral Tablet"
+      }
+    ]
+  },
+  "status": "active"
+}

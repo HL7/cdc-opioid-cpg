@@ -6,11 +6,11 @@
     "extension": [
       {
         "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
-        "valueString": "Acute Pain Management Example"
+        "valueString": "Acute Pain Management MedicationRequest Example"
       },
       {
         "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
-        "valueMarkdown": "This is an acute pain management example for the *Acute Pain Management MedicationRequest Profile*."
+        "valueMarkdown": "This is an acute pain management MedicationRequest example for the *Acute Pain Management MedicationRequest Profile*."
       }
     ]
   },
