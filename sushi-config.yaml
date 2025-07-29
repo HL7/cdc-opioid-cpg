@@ -14,7 +14,7 @@ description: >-
 status: draft
 license: CC0-1.0
 date: 2024-11-27
-version: 0.0.0-ballot
+version: 1.0.0-ballot
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
 # it can be a single item OR and array here (but so far SUSHI only
