@@ -1,0 +1,15 @@
+{
+    "package-id" : "hl7.fhir.us.cdc-opioid-cpg",
+    "version": "1.0.0-ballot",
+    "path": "http://hl7.org/fhir/us/cdc-opioid-cpg/2025Sep",
+    "mode": "working",
+    "status": "ballot",
+    "sequence": "STU 1",
+    "desc": "Release 1.0.0-ballot STU 1 Ballot",
+    "descmd": "This STU v1.0.0-ballot is the initial ballot of the Data Exchange Profiles for 2022 CDC Clinical Practice Guideline for Prescribing Opioids.",
+    "first" : true,
+    "title" : "Data Exchange Profiles for 2022 CDC Clinical Practice Guideline for Prescribing Opioids",
+    "ci-build": "http://build.fhir.org/ig/HL7/cdc-opioid-cpg",
+    "category": "Quality/CDS",
+    "introduction": "Defines exchange expectations for systems that implement the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain, both in terms of the data required to evaluate whether recommendations are applicable, as well as the data required to represent proposals resulting from those recommendations."
+}
