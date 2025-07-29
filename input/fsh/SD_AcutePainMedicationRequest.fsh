@@ -6,7 +6,7 @@ Severity: #error
 Invariant: acute-pain-bounds-period-invariant
 Description: "Acute pain MedicationRequest SHALL have a duration of < 28 days"
 Severity: #error
-* expression = "exists(end.toDateTime() < (start.toDateTime() + 28 days))"
+* expression = "exists(end < (start + 28 days))"
 
 Invariant: acute-pain-bounds-duration-invariant
 Description: "Acute pain MedicationRequest SHALL have a duration of < 28 days"

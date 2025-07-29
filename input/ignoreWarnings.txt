@@ -4,9 +4,6 @@
 # === Errors ===
 # ==============
 
-# The toDateTime() function is part of the normative FHIRPath specification: http://hl7.org/fhirpath/#todatetime-datetime
-ERROR: MedicationRequest/subacute-pain-management: MedicationRequest.dosageInstruction[0].timing.repeat.bounds.ofType(Period): Constraint failed: subacute-pain-bounds-period-invariant: 'Subacute pain MedicationRequest SHALL have a duration of 28 days (1 month) to 56 days (2 months)' (defined in http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/SubacutePainManagementMedicationRequest)Error evaluating FHIRPath expression: The function toDateTime is not implemented (@char 13) (log: Error evaluating FHIRPath expression: The function toDateTime is not implemented (@char 13))
-
 # The following SocketTimeoutExceptions appear to be a result of http://tx.fhir.org/r4 issues validating icd-10-cm codes
 ERROR: Condition/active-cancer-diagnosis: Condition.code: java.net.SocketTimeoutException: timeout
 ERROR: Condition/active-cancer-diagnosis: Condition.code: java.net.SocketTimeoutException: Read timed out
@@ -94,6 +91,10 @@ WARNING: ValueSet/oxycodone-medications: ValueSet.extension[2].value.ofType(mark
 
 # Suppress version pinning info messages
 %Pinned the version of%
+
+# Suppress messages when subsets are used for large value set expansions
+INFORMATION: ValueSet.where(id = 'fentanyl-type-urine-drug-screening-tests'): The value set expansion is too large, and only a subset has been displayed
+INFORMATION: ValueSet.where(id = 'oxycodone-urine-drug-screening-tests'): The value set expansion is too large, and only a subset has been displayed
 
 # The following code system and value sets are in FHIR Core/THO and not under the direct control of CDC Opioid CPG editors
 INFORMATION: StructureDefinition/ActiveCancerEncounterDiagnosisCondition: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-category|1.0.0
@@ -275,7 +276,6 @@ INFORMATION: ValueSet/fentanyl-type-urine-drug-screening-tests: ValueSet.extensi
 INFORMATION: ValueSet/fentanyl-type-urine-drug-screening-tests: ValueSet.extension[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-expandedvalueset|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: ValueSet/fentanyl-type-urine-drug-screening-tests: ValueSet.extension[4]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-expandedvalueset|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: ValueSet/fentanyl-type-urine-drug-screening-tests: ValueSet.extension[5]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-expandedvalueset|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: ValueSet.where(id = 'fentanyl-type-urine-drug-screening-tests'): The value set expansion is too large, and only a subset has been displayed
 INFORMATION: ValueSet/general-opiate-urine-drug-screening-tests: ValueSet.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-expandedvalueset|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: ValueSet/general-opiate-urine-drug-screening-tests: ValueSet.extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-expandedvalueset|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: ValueSet/general-opiate-urine-drug-screening-tests: ValueSet.extension[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-expandedvalueset|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
@@ -325,7 +325,6 @@ INFORMATION: ValueSet/oxycodone-urine-drug-screening-tests: ValueSet.extension[2
 INFORMATION: ValueSet/oxycodone-urine-drug-screening-tests: ValueSet.extension[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-expandedvalueset|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: ValueSet/oxycodone-urine-drug-screening-tests: ValueSet.extension[4]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-expandedvalueset|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: ValueSet/oxycodone-urine-drug-screening-tests: ValueSet.extension[5]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-expandedvalueset|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: ValueSet.where(id = 'oxycodone-urine-drug-screening-tests'): The value set expansion is too large, and only a subset has been displayed
 INFORMATION: ValueSet/pain-management-procedure: ValueSet.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-expandedvalueset|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: ValueSet/pain-management-procedure: ValueSet.extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-expandedvalueset|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: ValueSet/pain-management-procedure: ValueSet.extension[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-expandedvalueset|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)

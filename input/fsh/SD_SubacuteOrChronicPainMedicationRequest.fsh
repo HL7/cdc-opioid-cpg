@@ -6,7 +6,7 @@ Severity: #error
 Invariant: subacute-or-chronic-pain-bounds-period-invariant
 Description: "Subacute or chronic pain MedicationRequest SHALL have a duration of 28 days or more"
 Severity: #error
-* expression = "exists((end.toDateTime() >= (start.toDateTime() + 28 days)))"
+* expression = "exists((end >= (start + 28 days)))"
 
 Invariant: subacute-or-chronic-pain-bounds-duration-invariant
 Description: "Subacute or chronic pain MedicationRequest SHALL have a duration of 28 days or more"
