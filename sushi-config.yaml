@@ -43,7 +43,7 @@ extension:
   - url: "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
     valueCode: draft
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
-    valueInteger: 0
+    valueInteger: 2
 
 # Those who need more control or want to add additional details to the contact values can use
 # contact directly and follow the format outlined in the ImplementationGuide resource and
