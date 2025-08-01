@@ -11,7 +11,7 @@ name: CDCOpioidCPG
 title: Data Exchange Profiles for 2022 CDC Clinical Practice Guideline for Prescribing Opioids
 description: >-
   Defines exchange expectations for systems that implement the 2022 CDC Clinical Practice Guideline for Prescribing Opioids, both in terms of the data required to evaluate whether recommendations are applicable, as well as the data required to represent proposals resulting from those recommendations.
-status: draft
+status: active
 license: CC0-1.0
 date: 2024-11-27
 version: 1.0.0-ballot
