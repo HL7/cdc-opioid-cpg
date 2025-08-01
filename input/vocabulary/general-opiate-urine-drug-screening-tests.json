@@ -23,6 +23,7 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/general-opiate-urine-drug-screening-tests",
   "name": "GENERAL_OPIATE_URINE_DRUG_SCREENING_TESTS",
   "title": "General opiate urine drug screening tests",
+  "status": "active",
   "experimental": false,
   "date": "2023-05-25T18:08:12-06:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

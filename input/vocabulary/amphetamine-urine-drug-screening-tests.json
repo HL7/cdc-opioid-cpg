@@ -20,6 +20,7 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/amphetamine-urine-drug-screening-tests",
   "name": "AMPHETAMINE_URINE_DRUG_SCREENING_TESTS",
   "title": "Amphetamine-class drugs and metabolite urine tests",
+  "status": "active",
   "experimental": false,
   "date": "2023-05-25T18:08:12-06:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

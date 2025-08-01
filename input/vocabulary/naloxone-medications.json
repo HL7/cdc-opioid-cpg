@@ -23,6 +23,7 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/naloxone-medications",
   "name": "NALOXONE_MEDICATIONS",
   "title": "Naloxone medications",
+  "status": "active",
   "experimental": false,
   "date": "2025-02-24T13:06:52-07:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

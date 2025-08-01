@@ -20,6 +20,7 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/opioid-misuse-assessment-procedure",
   "name": "OPIOID_MISUSE_ASSESSMENT_PROCEDURE",
   "title": "Opioid misuse assessment procedure",
+  "status": "active",
   "experimental": false,
   "date": "2023-05-25T18:08:12-06:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

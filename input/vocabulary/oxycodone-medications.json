@@ -29,6 +29,7 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/oxycodone-medications",
   "name": "OXYCODONE_MEDICATIONS",
   "title": "Oxycodone Medications",
+  "status": "active",
   "experimental": false,
   "date": "2025-02-24T13:06:49-07:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

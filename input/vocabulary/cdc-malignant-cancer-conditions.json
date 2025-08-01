@@ -20,6 +20,7 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/cdc-malignant-cancer-conditions",
   "name": "CDC_MALIGNANT_CANCER_CONDITIONS",
   "title": "CDC malignant cancer conditions",
+  "status": "active",
   "experimental": false,
   "date": "2023-05-25T18:37:55-06:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

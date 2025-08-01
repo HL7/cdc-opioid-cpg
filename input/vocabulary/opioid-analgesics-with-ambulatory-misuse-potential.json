@@ -23,6 +23,7 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/opioid-analgesics-with-ambulatory-misuse-potential",
   "name": "OPIOID_ANALGESICS_WITH_AMBULATORY_MISUSE_POTENTIAL",
   "title": "Opioid analgesics with ambulatory misuse potential",
+  "status": "active",
   "experimental": false,
   "date": "2025-02-24T13:06:46-07:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

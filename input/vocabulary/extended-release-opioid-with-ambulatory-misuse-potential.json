@@ -23,6 +23,7 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/extended-release-opioid-with-ambulatory-misuse-potential",
   "name": "EXTENDED_RELEASE_OPIOID_WITH_AMBULATORY_MISUSE_POTENTIAL",
   "title": "Extended release opioid with ambulatory misuse potential",
+  "status": "active",
   "experimental": false,
   "date": "2025-02-24T13:06:49-07:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

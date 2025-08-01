@@ -27,6 +27,7 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/conditions-likely-terminal-for-opioid-prescribing",
   "name": "CONDITIONS_LIKELY_TERMINAL_FOR_OPIOID_PRESCRIBING",
   "title": "Conditions likely terminal for opioid prescribing",
+  "status": "active",
   "experimental": false,
   "date": "2023-05-25T18:37:55-06:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

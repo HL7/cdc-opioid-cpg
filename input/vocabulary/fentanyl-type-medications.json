@@ -23,6 +23,7 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/fentanyl-type-medications",
   "name": "FENTANYL_TYPE_MEDICATIONS",
   "title": "Fentanyl-type medications",
+  "status": "active",
   "experimental": false,
   "date": "2025-02-24T13:06:38-07:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",

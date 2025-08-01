@@ -20,6 +20,7 @@
   "url": "http://fhir.org/guides/cdc/opioid-cds/ValueSet/pdmp-data-reviewed-finding",
   "name": "PDMP_DATA_REVIEWED_FINDING",
   "title": "PDMP data reviewed finding",
+  "status": "active",
   "experimental": false,
   "date": "2023-05-25T18:08:12-06:00",
   "publisher": "Centers for Disease Control and Prevention (CDC)",
