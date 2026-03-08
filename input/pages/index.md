@@ -43,6 +43,23 @@ This Implementation Guide was made possible by the thoughtful contributions of t
 
 -	Clinical Quality Framework (CQF) Initiative – source content and reference implementations from the 2022 CDC Clinical Practice Guideline for Prescribing Opioids IG.
 
+### Credits
+**Project Team**
+- Johnathan Coleman (Security Risk Solutions)
+- Mohammad Jafari, PhD (Security Risk Solutions)
+- Kensaku Kawamoto, MD, PhD, MHS (Independent)
+- Robert McClure, MD (Independent)
+- Amber Patel (Security Risk Solutions)
+- Bryn Rhodes (Smile CDR)
+- Chris Schuler (Smile CDR)
+- Greg White (Security Risk Solutions)
+
+**Government Leadership**
+- Mera Choi (ASTP)
+- Alison Kemp, MPH (ASTP)
+- Anastasia Perchem (ASTP)
+- Adam Wong, MPP (ASTP)
+
 ### Dependencies
 
 {% include dependency-table-short.xhtml %}
