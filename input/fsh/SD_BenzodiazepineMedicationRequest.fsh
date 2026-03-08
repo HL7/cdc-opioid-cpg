@@ -1,5 +1,5 @@
 Profile: BenzodiazepineMedicationRequest
-Parent: OpioidReviewUsefulPatientMedicationRequest
+Parent: OpioidReviewIndicatedPatientMedicationRequest
 Id: BenzodiazepineMedicationRequest
 Title: "Benzodiazepine MedicationRequest Profile"
 Description: "Defines the essential criteria for an Benzodiazepine class medication request."

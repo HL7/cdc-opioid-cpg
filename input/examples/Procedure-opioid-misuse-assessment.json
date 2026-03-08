@@ -27,7 +27,7 @@
     ]
   },
   "subject": {
-    "reference": "Patient/opioid-review-useful"
+    "reference": "Patient/opioid-review-indicated"
   },
   "performedDateTime": "2025-07-21"
 }

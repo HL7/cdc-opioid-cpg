@@ -1,18 +1,18 @@
 {
   "resourceType": "MedicationRequest",
-  "id": "opioid-review-useful-patient",
+  "id": "opioid-review-indicated-patient",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/OpioidReviewUsefulPatientMedicationRequest"
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/OpioidReviewIndicatedPatientMedicationRequest"
     ],
     "extension": [
       {
         "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
-        "valueString": "Opioid Review Useful Patient MedicationRequest Example"
+        "valueString": "Opioid Review Indicated Patient MedicationRequest Example"
       },
       {
         "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
-        "valueMarkdown": "This is an opioid review useful patient MedicationRequest example for the *Opioid Review Useful Patient MedicationRequest Profile*."
+        "valueMarkdown": "This is an opioid review indicated patient MedicationRequest example for the *Opioid Review Indicated Patient MedicationRequest Profile*."
       }
     ]
   },
@@ -22,7 +22,7 @@
     "reference": "Medication/opioid"
   },
   "subject": {
-    "reference": "Patient/opioid-review-useful"
+    "reference": "Patient/opioid-review-indicated"
   },
   "authoredOn": "2025-07-21",
   "requester": {

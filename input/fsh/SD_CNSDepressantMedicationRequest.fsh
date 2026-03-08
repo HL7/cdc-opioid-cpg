@@ -9,7 +9,7 @@ Id: CNSDepressantMedicationRequest
 Title: "CNS Depressant MedicationRequest Profile"
 Description: "Defines the essential criteria for a central nervous system depressant medication request."
 
-* subject only Reference(OpioidReviewUsefulPatient)
+* subject only Reference(OpioidReviewIndicatedPatient)
 * medication[x] only CodeableConcept or Reference(CNSDepressantMedication)
 * medication[x] from $CNSDepressantMedicationVS (required)
 * intent = #order

@@ -1,18 +1,18 @@
 {
   "resourceType": "Encounter",
-  "id": "opioid-review-useful-patient",
+  "id": "opioid-review-indicated-patient",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/OpioidReviewUsefulPatientEncounter"
+      "http://hl7.org/fhir/us/cdc-opioid-cpg/StructureDefinition/OpioidReviewIndicatedPatientEncounter"
     ],
     "extension": [
       {
         "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
-        "valueString": "Opioid Review Useful Patient Encounter Example"
+        "valueString": "Opioid Review Indicated Patient Encounter Example"
       },
       {
         "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
-        "valueMarkdown": "This is an opioid review useful patient encounter example for the *Opioid Review Useful Patient Encounter Profile*."
+        "valueMarkdown": "This is an opioid review indicated patient encounter example for the *Opioid Review Indicated Patient Encounter Profile*."
       }
     ]
   },
@@ -34,7 +34,7 @@
     }
   ],
   "subject": {
-    "reference": "Patient/opioid-review-useful"
+    "reference": "Patient/opioid-review-indicated"
   },
   "diagnosis": [
     {

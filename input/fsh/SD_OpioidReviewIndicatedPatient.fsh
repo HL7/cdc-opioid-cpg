@@ -3,11 +3,11 @@ Description: "Patient SHALL be 18 years old or older"
 Severity: #error
 * expression = "birthDate.exists() and (birthDate <= (today() - 18 years))"
 
-Profile: OpioidReviewUsefulPatient
+Profile: OpioidReviewIndicatedPatient
 Parent: $QICorePatient
-Id: OpioidReviewUsefulPatient
-Title: "Opioid Review Useful Patient Profile"
-Description: "Defines the essential criteria for determining whether an opioid review should be conducted for a patient."
+Id: OpioidReviewIndicatedPatient
+Title: "Opioid Review Indicated Patient Profile"
+Description: "Defines the essential criteria for a patient as part of determining whether an opioid review should be conducted."
 
 * birthDate 1..1 
 * obeys patient-18-or-older-invariant

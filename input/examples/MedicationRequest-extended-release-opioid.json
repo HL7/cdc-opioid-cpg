@@ -23,7 +23,7 @@
     "reference": "Medication/extended-release-opioid"
   },
   "subject": {
-    "reference": "Patient/opioid-review-useful"
+    "reference": "Patient/opioid-review-indicated"
   },
   "authoredOn": "2025-07-21",
   "requester": {
