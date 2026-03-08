@@ -14,7 +14,7 @@ description: >-
 status: active
 license: CC0-1.0
 date: 2024-11-27
-version: 1.0.0-ballot
+version: 1.0.0
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
 # it can be a single item OR and array here (but so far SUSHI only
@@ -28,7 +28,7 @@ fhirVersion: 4.0.1
 # will recognize them as well. In either case, they'll be copied
 # to the IG JSON using the formal names.
 copyrightYear: 2024+
-releaseLabel: STU 1 - Ballot
+releaseLabel: STU 1
 
 # The publisher can be a single item or a list, each with a name and
 # optional url and/or email. The first publisher's name will be used
@@ -43,7 +43,7 @@ extension:
   - url: "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
     valueCode: trial-use
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
-    valueInteger: 2
+    valueInteger: 3
 
 # Those who need more control or want to add additional details to the contact values can use
 # contact directly and follow the format outlined in the ImplementationGuide resource and
