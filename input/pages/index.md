@@ -12,6 +12,8 @@ Where possible, new and updated content will be highlighted with green text and 
 
 Defines exchange expectations for systems that implement the [2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain](https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm), both in terms of the data required to evaluate whether recommendations are applicable, as well as the data required to represent proposals resulting from those recommendations.
 
+> Note that the title of this implementation guide intentionally includes the version year of the CDC Clinical Practice Guideline for Prescribing Opioids to ensure that users understand exactly which version of the guidance is being supported.
+
 ### Scope of Use
 
 This implementation guide proposes a standardized exchange of FHIR profiles that convey information referenced by the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain recommendations. The decision support logic authoring and clinical relevance of the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain is not within the scope of this implementation guide. 
