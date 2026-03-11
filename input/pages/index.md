@@ -16,16 +16,18 @@ Defines exchange expectations for systems that implement the [2022 CDC Clinical 
 
 ### Scope of Use
 
-This implementation guide proposes a standardized exchange of FHIR profiles that convey information referenced by the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain recommendations. The decision support logic authoring and clinical relevance of the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain is not within the scope of this implementation guide. 
+This implementation guide defines FHIR profiles that characterize the data elements used in the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain recommendations. The decision support logic authoring and clinical relevance of the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain is not within the scope of this implementation guide. 
 
 ### How to read this Guide
 {: #how-to-read-this-guide}
 
 1. Home & Background – Introduces the opioid crisis context and relationship to the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain.
 
-2. [Artifacts](profiles.html) – Detailed definitions of every profile, extension, value set, and operation.
+2. [Profiles](profiles.html) - A listing of profiles used in each recommendation and subroutine.
 
-3. [Change History & Roadmap](changes.html) – Links to ballot comments and future work items.
+3. [Artifacts](artifacts.html) – Detailed definitions of every profile, extension, value set, and operation.
+
+4. [Change History & Roadmap](changes.html) – Links to ballot comments and future work items.
 
 #### Target Audiences
 
