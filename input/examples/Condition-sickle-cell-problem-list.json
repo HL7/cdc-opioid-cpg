@@ -58,7 +58,7 @@
     ]
   },
   "subject": {
-    "reference": "Patient/opioid-review-useful"
+    "reference": "Patient/opioid-review-indicated"
   },
   "onsetDateTime": "2025-01-14",
   "recordedDate": "2025-01-14T07:15:07-07:00"

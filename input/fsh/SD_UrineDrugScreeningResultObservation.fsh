@@ -9,7 +9,7 @@ Id: UrineDrugScreeningResultObservation
 Title: "Urine Drug Screening Result Observation Profile"
 Description: "Specifies the essential criteria for interpreting the results of a urine drug screening."
 
-* subject only Reference(OpioidReviewUsefulPatient)
+* subject only Reference(OpioidReviewIndicatedPatient)
 * value[x] only string
 * value[x] 1..1
 * valueString obeys uds-value-string-invariant

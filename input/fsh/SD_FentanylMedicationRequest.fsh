@@ -1,5 +1,5 @@
 Profile: FentanylMedicationRequest
-Parent: OpioidReviewUsefulPatientMedicationRequest
+Parent: OpioidReviewIndicatedPatientMedicationRequest
 Id: FentanylMedicationRequest
 Title: "Fentanyl MedicationRequest Profile"
 Description: "Defines the essential criteria for an Fentanyl class medication request."

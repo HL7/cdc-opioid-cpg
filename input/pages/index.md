@@ -12,18 +12,22 @@ Where possible, new and updated content will be highlighted with green text and 
 
 Defines exchange expectations for systems that implement the [2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain](https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm), both in terms of the data required to evaluate whether recommendations are applicable, as well as the data required to represent proposals resulting from those recommendations.
 
+> Note that the title of this implementation guide intentionally includes the version year of the CDC Clinical Practice Guideline for Prescribing Opioids to ensure that users understand exactly which version of the guidance is being supported.
+
 ### Scope of Use
 
-This implementation guide proposes a standardized exchange of FHIR profiles that convey information referenced by the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain recommendations. The decision support logic authoring and clinical relevance of the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain is not within the scope of this implementation guide. 
+This implementation guide defines FHIR profiles that characterize the data elements used in the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain recommendations. The decision support logic authoring and clinical relevance of the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain is not within the scope of this implementation guide. 
 
 ### How to read this Guide
 {: #how-to-read-this-guide}
 
 1. Home & Background – Introduces the opioid crisis context and relationship to the 2022 CDC Clinical Practice Guideline for Prescribing Opioids for Pain.
 
-2. [Artifacts](profiles.html) – Detailed definitions of every profile, extension, value set, and operation.
+2. [Profiles](profiles.html) - A listing of profiles used in each recommendation and subroutine.
 
-3. [Change History & Roadmap](changes.html) – Links to ballot comments and future work items.
+3. [Artifacts](artifacts.html) – Detailed definitions of every profile, extension, value set, and operation.
+
+4. [Change History & Roadmap](changes.html) – Links to ballot comments and future work items.
 
 #### Target Audiences
 
@@ -42,6 +46,23 @@ This Implementation Guide was made possible by the thoughtful contributions of t
 -	HL7 Clinical Decision Support Work Group – project sponsorship and ballot reconciliation.
 
 -	Clinical Quality Framework (CQF) Initiative – source content and reference implementations from the 2022 CDC Clinical Practice Guideline for Prescribing Opioids IG.
+
+### Credits
+**Project Team**
+- Johnathan Coleman (Security Risk Solutions)
+- Mohammad Jafari, PhD (Security Risk Solutions)
+- Kensaku Kawamoto, MD, PhD, MHS (Independent)
+- Robert McClure, MD (Independent)
+- Amber Patel (Security Risk Solutions)
+- Bryn Rhodes (Smile CDR)
+- Chris Schuler (Smile CDR)
+- Greg White (Security Risk Solutions)
+
+**Government Leadership**
+- Mera Choi (ASTP)
+- Alison Kemp, MPH (ASTP)
+- Anastasia Perchem (ASTP)
+- Adam Wong, MPP (ASTP)
 
 ### Dependencies
 

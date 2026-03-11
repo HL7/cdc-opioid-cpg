@@ -1,5 +1,5 @@
 Profile: MethadoneMedicationRequest
-Parent: OpioidReviewUsefulPatientMedicationRequest
+Parent: OpioidReviewIndicatedPatientMedicationRequest
 Id: MethadoneMedicationRequest
 Title: "Methadone MedicationRequest Profile"
 Description: "Defines the essential criteria for an Methadone class medication request."

@@ -1,22 +1,26 @@
-Invariant: chronic-pain-expected-supply-duration-invariant
-Description: "Chronic pain MedicationRequest SHALL have a duration of > 56 days"
-Severity: #error
-* expression = "exists((value.toString() + unit).toQuantity() > 56 days)"
+// [FHIR-52573](https://jira.hl7.org/browse/FHIR-52573)
+// Given that the medication duration may be determined over multiple medications, we will remove the constraints,
+// keeping only the must support to ensure the logic has the elements required to calculate the duration.
 
-Invariant: chronic-pain-bounds-period-invariant
-Description: "Chronic pain MedicationRequest SHALL have a duration of > 56 days"
-Severity: #error
-* expression = "exists(end.toDateTime() > (start.toDateTime() + 56 days))"
+//Invariant: chronic-pain-expected-supply-duration-invariant
+//Description: "Chronic pain MedicationRequest SHALL have a duration of > 56 days"
+//Severity: #error
+//* expression = "exists((value.toString() + unit).toQuantity() > 56 days)"
 
-Invariant: chronic-pain-bounds-duration-invariant
-Description: "Chronic pain MedicationRequest SHALL have a duration of > 56 days"
-Severity: #error
-* expression = "exists((value.toString() + unit).toQuantity() > 56 days)"
+//Invariant: chronic-pain-bounds-period-invariant
+//Description: "Chronic pain MedicationRequest SHALL have a duration of > 56 days"
+//Severity: #error
+//* expression = "exists(end.toDateTime() > (start.toDateTime() + 56 days))"
 
-Invariant: chronic-pain-bounds-range-invariant
-Description: "Chronic pain MedicationRequest SHALL have a duration of > 56 days"
-Severity: #error
-* expression = "exists((high.value.toString() + high.unit).toQuantity() > 56 days)"
+//Invariant: chronic-pain-bounds-duration-invariant
+//Description: "Chronic pain MedicationRequest SHALL have a duration of > 56 days"
+//Severity: #error
+//* expression = "exists((value.toString() + unit).toQuantity() > 56 days)"
+
+//Invariant: chronic-pain-bounds-range-invariant
+//Description: "Chronic pain MedicationRequest SHALL have a duration of > 56 days"
+//Severity: #error
+//* expression = "exists((high.value.toString() + high.unit).toQuantity() > 56 days)"
 
 Invariant: chronic-pain-required-elements-invariant
 Description: "One of courseOfTherapyType, dosageInstruction.timing.repeat.bounds[x] or dispenseRequest.expectedSupplyDuration SHALL be present."
@@ -32,11 +36,11 @@ Description: "Defines the essential criteria for a MedicationRequest intended fo
 * courseOfTherapyType MS
 * courseOfTherapyType = http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy#continuous
 * dosageInstruction.timing.repeat.boundsPeriod MS
-* dosageInstruction.timing.repeat.boundsPeriod obeys chronic-pain-bounds-period-invariant
+//* dosageInstruction.timing.repeat.boundsPeriod obeys chronic-pain-bounds-period-invariant
 * dosageInstruction.timing.repeat.boundsDuration MS
-* dosageInstruction.timing.repeat.boundsDuration obeys chronic-pain-bounds-duration-invariant
+//* dosageInstruction.timing.repeat.boundsDuration obeys chronic-pain-bounds-duration-invariant
 * dosageInstruction.timing.repeat.boundsRange MS
-* dosageInstruction.timing.repeat.boundsRange obeys chronic-pain-bounds-range-invariant
+//* dosageInstruction.timing.repeat.boundsRange obeys chronic-pain-bounds-range-invariant
 * dispenseRequest.expectedSupplyDuration MS
-* dispenseRequest.expectedSupplyDuration obeys chronic-pain-expected-supply-duration-invariant
+//* dispenseRequest.expectedSupplyDuration obeys chronic-pain-expected-supply-duration-invariant
 * obeys chronic-pain-required-elements-invariant

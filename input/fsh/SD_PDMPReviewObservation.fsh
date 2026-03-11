@@ -11,4 +11,4 @@ Description: "Specifies the essential criteria for documentation that a PDMP rev
 
 * status obeys pdmp-status-allowed
 * code from $PDMPDataReviewedVS (required) 
-* subject only Reference(OpioidReviewUsefulPatient)
+* subject only Reference(OpioidReviewIndicatedPatient)

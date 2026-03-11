@@ -1,5 +1,5 @@
 Profile: NaloxoneMedicationRequest
-Parent: OpioidReviewUsefulPatientMedicationRequest
+Parent: OpioidReviewIndicatedPatientMedicationRequest
 Id: NaloxoneMedicationRequest
 Title: "Naloxone MedicationRequest Profile"
 Description: "Defines the essential criteria for an Naloxone class medication request."

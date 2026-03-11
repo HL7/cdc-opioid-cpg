@@ -1,5 +1,5 @@
 Profile: BuprenorphineMedicationRequest
-Parent: OpioidReviewUsefulPatientMedicationRequest
+Parent: OpioidReviewIndicatedPatientMedicationRequest
 Id: BuprenorphineMedicationRequest
 Title: "Buprenorphine MedicationRequest Profile"
 Description: "Defines the essential criteria for an Buprenorphine class medication request."
