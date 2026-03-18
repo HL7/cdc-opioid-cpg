@@ -75,8 +75,8 @@ dependencies:
   fhir.cdc.opioid-cds-r4:
     id: opioidcds
     uri: http://fhir.org/guides/cdc/opioid-cds/ImplementationGuide/fhir.cdc.opioid-cds-r4
-    version: dev
-#    version: 2022.1.0
+#    version: dev
+    version: 2022.1.0
   hl7.fhir.us.core:
     uri: http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core
     version: 6.1.0
