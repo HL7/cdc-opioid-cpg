@@ -30,7 +30,7 @@ The following table lists the profiles associated with each recommendation in th
   <tr>
     <td><a href="{{site.data.fhir.ver.opioidcds}}/recommendation-02.html">Recommendation #2 - Prioritize Nonopioid Pain Therapies</a></td>
     <td>
-      <a href="opioid-order-for-subacute-or-chronic-pain">Opioid Order for Subacute or Chronic Pain <i>(subroutine)</i></a><br>
+      <a href="#opioid-order-for-subacute-or-chronic-pain">Opioid Order for Subacute or Chronic Pain <i>(subroutine)</i></a><br>
       <a href="#opioid-review-indicated">Opioid Review Indicated <i>(subroutine)</i></a><br>
       <a href="#opioid-naive">Opioid Naive <i>(subroutine)</i></a>
       <a href="StructureDefinition-PainManagementProcedure.html">Pain Management Procedure</a><br>
@@ -62,7 +62,7 @@ The following table lists the profiles associated with each recommendation in th
   <tr>
     <td><a href="{{site.data.fhir.ver.opioidcds}}/recommendation-07.html">Recommendation #7 - Opioid Therapy Risk Assessment</a></td>
     <td>
-      <a href="opioid-order-for-subacute-or-chronic-pain">Opioid Order for Subacute or Chronic Pain <i>(subroutine)</i></a><br>
+      <a href="#opioid-order-for-subacute-or-chronic-pain">Opioid Order for Subacute or Chronic Pain <i>(subroutine)</i></a><br>
       <a href="#opioid-review-indicated">Opioid Review Indicated <i>(subroutine)</i></a><br>
       <a href="StructureDefinition-OpioidMisuseAssessmentProcedure.html">Opioid Misuse Assessment Procedure</a>
     </td>
@@ -87,7 +87,7 @@ The following table lists the profiles associated with each recommendation in th
   <tr>
     <td><a href="{{site.data.fhir.ver.opioidcds}}/recommendation-10.html">Recommendation #10 - Urine Drug Testing</a></td>
     <td>
-      <a href="opioid-order-for-subacute-or-chronic-pain">Opioid Order for Subacute or Chronic Pain <i>(subroutine)</i></a><br>
+      <a href="#opioid-order-for-subacute-or-chronic-pain">Opioid Order for Subacute or Chronic Pain <i>(subroutine)</i></a><br>
       <a href="#opioid-review-indicated">Opioid Review Indicated <i>(subroutine)</i></a><br>
       <a href="StructureDefinition-UrineDrugScreeningResultObservation.html">Urine Drug Screening Result Observation</a>
     </td>

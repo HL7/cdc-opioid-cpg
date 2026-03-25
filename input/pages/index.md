@@ -79,3 +79,7 @@ This Implementation Guide was made possible by the thoughtful contributions of t
 ### IP Statements
 
 {% include ip-statements.xhtml %}
+
+### Expansion Parameters
+
+{% include expansion-params.xhtml %}

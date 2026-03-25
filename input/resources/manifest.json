@@ -12,5 +12,9 @@
         "valueMarkdown": "This Manifest is used to manage and resolve canonical resource versions within the CDCOpioidCPG."
       }
     ]
-  }
+  },
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/731000124108"
+  }]
 }

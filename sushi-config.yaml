@@ -67,15 +67,16 @@ dependencies:
     uri: http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions
     version: 5.2.0
   hl7.fhir.uv.crmi:
+    id: crmi
     uri: http://hl7.org/fhir/uv/crmi/ImplementationGuide/hl7.fhir.uv.crmi
     version: 1.0.0
   hl7.fhir.uv.cpg:
+    id: cpg
     uri: http://hl7.org/fhir/uv/cpg/ImplementationGuide/hl7.fhir.uv.cpg
     version: 1.0.0
   fhir.cdc.opioid-cds-r4:
     id: opioidcds
     uri: http://fhir.org/guides/cdc/opioid-cds/ImplementationGuide/fhir.cdc.opioid-cds-r4
-#    version: dev
     version: 2022.1.0
   hl7.fhir.us.core:
     uri: http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core
@@ -95,7 +96,7 @@ parameters:
   excludettl: true
   propagate-status: true
   jira-code: cdc-opioid-cpg
-  path-expansion-params: '../../input/_resources/exp-params.json'
+  path-expansion-params: '../../input/resources/manifest.json'
   path-history: http://hl7.org/fhir/us/cdc-opioid-cpg/history.html
   pin-canonicals: pin-all
   pin-manifest: manifest
