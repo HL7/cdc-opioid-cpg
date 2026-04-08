@@ -5,6 +5,22 @@
 # ==============
 
 # Getting an error from the terminology server on expansion
+ERROR: Observation/barbiturate-urine-drug-screening-result: Observation.code: Error from https://tx.fhir.org/r4: Error: this.listVersions is not a function
+WARNING: Observation/barbiturate-urine-drug-screening-result: Observation.code: Could not confirm that the codings provided are in the value set http://fhir.org/guides/cdc/opioid-cds/ValueSet/barbiturate-urine-drug-screening-tests and a coding from this value set is required (class = SERVER_ERROR)
+ERROR: Observation/benzodiazepine-urine-drug-screening-result: Observation.code: Error from https://tx.fhir.org/r4: Error: this.listVersions is not a function
+WARNING: Observation/benzodiazepine-urine-drug-screening-result: Observation.code: Could not confirm that the codings provided are in the value set http://fhir.org/guides/cdc/opioid-cds/ValueSet/benzodiazepine-urine-drug-screening-tests and a coding from this value set is required (class = SERVER_ERROR)
+ERROR: Observation/buprenorphine-urine-drug-screening-result: Observation.code: Error from https://tx.fhir.org/r4: Error: this.listVersions is not a function
+WARNING: Observation/buprenorphine-urine-drug-screening-result: Observation.code: Could not confirm that the codings provided are in the value set http://fhir.org/guides/cdc/opioid-cds/ValueSet/buprenorphine-urine-drug-screening-tests and a coding from this value set is required (class = SERVER_ERROR)
+ERROR: Observation/cocaine-urine-drug-screening-result: Observation.code: Error from https://tx.fhir.org/r4: Error: this.listVersions is not a function
+WARNING: Observation/cocaine-urine-drug-screening-result: Observation.code: Could not confirm that the codings provided are in the value set http://fhir.org/guides/cdc/opioid-cds/ValueSet/cocaine-urine-drug-screening-tests and a coding from this value set is required (class = SERVER_ERROR)
+ERROR: Observation/fentanyl-urine-drug-screening-result: Observation.code: Error from https://tx.fhir.org/r4: Error: this.listVersions is not a function
+WARNING: Observation/fentanyl-urine-drug-screening-result: Observation.code: Could not confirm that the codings provided are in the value set http://fhir.org/guides/cdc/opioid-cds/ValueSet/fentanyl-type-urine-drug-screening-tests and a coding from this value set is required (class = SERVER_ERROR)
+ERROR: Observation/heroin-urine-drug-screening-result: Observation.code: Error from https://tx.fhir.org/r4: Error: this.listVersions is not a function
+WARNING: Observation/heroin-urine-drug-screening-result: Observation.code: Could not confirm that the codings provided are in the value set http://fhir.org/guides/cdc/opioid-cds/ValueSet/heroin-urine-drug-screening-tests and a coding from this value set is required (class = SERVER_ERROR)
+ERROR: Observation/opiate-urine-drug-screening-result: Observation.code: Error from https://tx.fhir.org/r4: Error: this.listVersions is not a function
+WARNING: Observation/opiate-urine-drug-screening-result: Observation.code: Could not confirm that the codings provided are in the value set http://fhir.org/guides/cdc/opioid-cds/ValueSet/general-opiate-urine-drug-screening-tests and a coding from this value set is required (class = SERVER_ERROR)
+ERROR: Observation/oxycodone-urine-drug-screening-result: Observation.code: Error from https://tx.fhir.org/r4: Error: this.listVersions is not a function
+WARNING: Observation/oxycodone-urine-drug-screening-result: Observation.code: Could not confirm that the codings provided are in the value set http://fhir.org/guides/cdc/opioid-cds/ValueSet/oxycodone-urine-drug-screening-tests and a coding from this value set is required (class = SERVER_ERROR)
 ERROR: Observation/pcp-urine-drug-screening-result: Observation.code: Error from https://tx.fhir.org/r4: Error: this.listVersions is not a function
 WARNING: Observation/pcp-urine-drug-screening-result: Observation.code: Could not confirm that the codings provided are in the value set http://fhir.org/guides/cdc/opioid-cds/ValueSet/phencyclidine-urine-drug-screening-tests and a coding from this value set is required (class = SERVER_ERROR)
 
@@ -23,7 +39,7 @@ ERROR: Observation/methadone-urine-drug-screening-result: Observation.code: None
 # The CDC Opioid CPG depends on QiCore version 6.0.0 and US Core version 6.1.0 - we will consider referencing more recent versions in later publications
 WARNING: ImplementationGuide/hl7.fhir.us.cdc-opioid-cpg: ImplementationGuide.dependsOn[3]: The ImplementationGuide uses package hl7.fhir.uv.cpg#1.0.0 released on 2021-02-11, but the most recent appropriate version is 2.0.0. This reference is getting old and the more recent version should be considered
 WARNING: ImplementationGuide/hl7.fhir.us.cdc-opioid-cpg: ImplementationGuide.dependsOn[5]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 8.0.1. This reference is getting old and the more recent version should be considered
-WARNING: ImplementationGuide/hl7.fhir.us.cdc-opioid-cpg: ImplementationGuide.dependsOn[6]: The ImplementationGuide uses package hl7.fhir.us.qicore#6.0.0 released on 2024-03-01, but the most recent appropriate version is 7.0.1. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/hl7.fhir.us.cdc-opioid-cpg: ImplementationGuide.dependsOn[6]: The ImplementationGuide uses package hl7.fhir.us.qicore#6.0.0 released on 2024-03-01, but the most recent appropriate version is 7.0.2. This reference is getting old and the more recent version should be considered
 
 # Using pinning with a manifest
 WARNING: StructureDefinition/ActiveCancerEncounterDiagnosisCondition: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/condition-assertedDate'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 1.0.0 (from hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.1.0 (from hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/condition-assertedDate' to 'http://hl7.org/fhir/StructureDefinition/condition-assertedDate|5.2.0'
@@ -76,6 +92,12 @@ WARNING: StructureDefinition/SubacuteOrChronicPainManagementMedicationRequest: S
 WARNING: StructureDefinition/SubacutePainManagementMedicationRequest: StructureDefinition.snapshot.element[104].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0 (from hl7.terminology.r4#5.0.0), 3.0.0 (from hl7.terminology.r4#7.1.0). Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode' to 'http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode|3.0.0'
 WARNING: StructureDefinition/SubacutePainManagementMedicationRequest: StructureDefinition.snapshot.element[105].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0 (from hl7.terminology.r4#5.0.0), 3.0.0 (from hl7.terminology.r4#7.1.0). Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason' to 'http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason|3.0.0'
 
+# LOINC version 2.81 is referenced by the dependent opioid-cds package but is not available on the tx server
+WARNING: CarePlan/pain-treatment: CarePlan.category[0].coding[1].system: A definition for CodeSystem 'http://loinc.org' version '2.81' could not be found, so the code cannot be validated. Valid versions: 2.77 or 2.82
+WARNING: Observation/amphetamine-urine-drug-screening-result: Observation.code.coding[0].system: A definition for CodeSystem 'http://loinc.org' version '2.81' could not be found, so the code cannot be validated. Valid versions: 2.77 or 2.82
+WARNING: Observation/cannabinoid-urine-drug-screening-result: Observation.code.coding[0].system: A definition for CodeSystem 'http://loinc.org' version '2.81' could not be found, so the code cannot be validated. Valid versions: 2.77 or 2.82
+WARNING: Observation/methadone-urine-drug-screening-result: Observation.code.coding[0].system: A definition for CodeSystem 'http://loinc.org' version '2.81' could not be found, so the code cannot be validated. Valid versions: 2.77 or 2.82
+
 # Not clear what code should be used instead
 WARNING: Observation/pdmp-review: Observation.code.coding[0]: The concept '461651000124104' has a status of inactive and its use should be reviewed
 
@@ -88,6 +110,9 @@ WARNING: Observation/pdmp-review: Observation.code.coding[0]: The concept '46165
 
 # Accepted references to draft code systems
 INFORMATION: CarePlan/pain-treatment: CarePlan.text.status: Reference to draft CodeSystem http://hl7.org/fhir/narrative-status|4.0.1
+INFORMATION: Procedure/opioid-misuse-assessment: Procedure.status: Reference to draft CodeSystem http://hl7.org/fhir/event-status|4.0.1
+INFORMATION: Procedure/pain-management: Procedure.status: Reference to draft CodeSystem http://hl7.org/fhir/event-status|4.0.1
+INFORMATION: Procedure/pdmp-review: Procedure.status: Reference to draft CodeSystem http://hl7.org/fhir/event-status|4.0.1
 INFORMATION: Observation/amphetamine-urine-drug-screening-result: Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
 INFORMATION: Observation/barbiturate-urine-drug-screening-result: Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
 INFORMATION: Observation/benzodiazepine-urine-drug-screening-result: Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
