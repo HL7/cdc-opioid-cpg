@@ -4,7 +4,7 @@
 # === Errors ===
 # ==============
 
-# Getting an error from the terminology server on expansion
+# Getting an error from the terminology server on expansion (See Zulip thread: https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Getting.20this.2ElistVersion.20error.20in.20value.20set.20validation/with/584283223)
 ERROR: Observation/barbiturate-urine-drug-screening-result: Observation.code: Error from https://tx.fhir.org/r4: Error: this.listVersions is not a function
 WARNING: Observation/barbiturate-urine-drug-screening-result: Observation.code: Could not confirm that the codings provided are in the value set http://fhir.org/guides/cdc/opioid-cds/ValueSet/barbiturate-urine-drug-screening-tests and a coding from this value set is required (class = SERVER_ERROR)
 ERROR: Observation/benzodiazepine-urine-drug-screening-result: Observation.code: Error from https://tx.fhir.org/r4: Error: this.listVersions is not a function
@@ -24,13 +24,17 @@ WARNING: Observation/oxycodone-urine-drug-screening-result: Observation.code: Co
 ERROR: Observation/pcp-urine-drug-screening-result: Observation.code: Error from https://tx.fhir.org/r4: Error: this.listVersions is not a function
 WARNING: Observation/pcp-urine-drug-screening-result: Observation.code: Could not confirm that the codings provided are in the value set http://fhir.org/guides/cdc/opioid-cds/ValueSet/phencyclidine-urine-drug-screening-tests and a coding from this value set is required (class = SERVER_ERROR)
 
-# These codes are in these value sets, not clear why this error is happening
+# The value set definition is incorrect in the published content, a PR has been submitted to correct this
 ERROR: CarePlan/pain-treatment: CarePlan.category[0]: None of the codings provided are in the value set 'Pain treatment plan' (http://fhir.org/guides/cdc/opioid-cds/ValueSet/pain-treatment-plan|2022.1.0), and a coding from this value set is required) (codes = http://hl7.org/fhir/us/core/CodeSystem/careplan-category#assess-plan, http://loinc.org#80764-4)
-ERROR: Condition/active-cancer-diagnosis: Condition.code: None of the codings provided are in the value set 'CDC malignant cancer conditions' (http://fhir.org/guides/cdc/opioid-cds/ValueSet/cdc-malignant-cancer-conditions|2022.1.0), and a coding from this value set is required) (codes = http://hl7.org/fhir/sid/icd-10-cm#C79.2)
-ERROR: Condition/active-cancer-problem-list: Condition.code: None of the codings provided are in the value set 'CDC malignant cancer conditions' (http://fhir.org/guides/cdc/opioid-cds/ValueSet/cdc-malignant-cancer-conditions|2022.1.0), and a coding from this value set is required) (codes = http://hl7.org/fhir/sid/icd-10-cm#C00.0)
+
+# The value set definition is incorrect in the published content, we are fixing these
 ERROR: Observation/amphetamine-urine-drug-screening-result: Observation.code: None of the codings provided are in the value set 'Amphetamine-class drugs and metabolite urine tests' (http://fhir.org/guides/cdc/opioid-cds/ValueSet/amphetamine-urine-drug-screening-tests|2022.1.0), and a coding from this value set is required) (codes = http://loinc.org#3349-8)
 ERROR: Observation/cannabinoid-urine-drug-screening-result: Observation.code: None of the codings provided are in the value set 'Cannabinoid class urine drug screening' (http://fhir.org/guides/cdc/opioid-cds/ValueSet/cannabinoid-urine-drug-screening-tests|2022.1.0), and a coding from this value set is required) (codes = http://loinc.org#26747-6)
 ERROR: Observation/methadone-urine-drug-screening-result: Observation.code: None of the codings provided are in the value set 'Methadone urine drug screening tests' (http://fhir.org/guides/cdc/opioid-cds/ValueSet/methadone-urine-drug-screening-tests|2022.1.0), and a coding from this value set is required) (codes = http://loinc.org#41466-4)
+
+# Intentionally using ICD-10-CM version 2021
+ERROR: Condition/active-cancer-diagnosis: Condition.code: None of the codings provided are in the value set 'CDC malignant cancer conditions' (http://fhir.org/guides/cdc/opioid-cds/ValueSet/cdc-malignant-cancer-conditions|2022.1.0), and a coding from this value set is required) (codes = http://hl7.org/fhir/sid/icd-10-cm#C79.2)
+ERROR: Condition/active-cancer-problem-list: Condition.code: None of the codings provided are in the value set 'CDC malignant cancer conditions' (http://fhir.org/guides/cdc/opioid-cds/ValueSet/cdc-malignant-cancer-conditions|2022.1.0), and a coding from this value set is required) (codes = http://hl7.org/fhir/sid/icd-10-cm#C00.0)
 
 # ================
 # === Warnings ===
