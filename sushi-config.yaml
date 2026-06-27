@@ -65,7 +65,7 @@ jurisdiction: urn:iso:std:iso:3166#US
 dependencies:
   hl7.fhir.uv.extensions.r4:
     uri: http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions
-    version: 5.2.0
+    version: 5.3.0
   hl7.fhir.uv.crmi:
     id: crmi
     uri: http://hl7.org/fhir/uv/crmi/ImplementationGuide/hl7.fhir.uv.crmi
@@ -77,7 +77,7 @@ dependencies:
   fhir.cdc.opioid-cds-r4:
     id: opioidcds
     uri: http://fhir.org/guides/cdc/opioid-cds/ImplementationGuide/fhir.cdc.opioid-cds-r4
-    version: 2022.1.0
+    version: dev
   hl7.fhir.us.core:
     uri: http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core
     version: 6.1.0
@@ -100,7 +100,7 @@ parameters:
   path-history: http://hl7.org/fhir/us/cdc-opioid-cpg/history.html
   pin-canonicals: pin-all
   pin-manifest: manifest
-#  auto-oid-root: TBD
+  auto-oid-root: 2.16.840.1.113883.4.642.40.66
 
 pages:
   index.md:

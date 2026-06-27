@@ -42,7 +42,7 @@ ERROR: Condition/active-cancer-problem-list: Condition.code: None of the codings
 
 # The CDC Opioid CPG depends on QiCore version 6.0.0 and US Core version 6.1.0 - we will consider referencing more recent versions in later publications
 WARNING: ImplementationGuide/hl7.fhir.us.cdc-opioid-cpg: ImplementationGuide.dependsOn[3]: The ImplementationGuide uses package hl7.fhir.uv.cpg#1.0.0 released on 2021-02-11, but the most recent appropriate version is 2.0.0. This reference is getting old and the more recent version should be considered
-WARNING: ImplementationGuide/hl7.fhir.us.cdc-opioid-cpg: ImplementationGuide.dependsOn[5]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 8.0.1. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/hl7.fhir.us.cdc-opioid-cpg: ImplementationGuide.dependsOn[5]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 9.0.0. This reference is getting old and the more recent version should be considered
 WARNING: ImplementationGuide/hl7.fhir.us.cdc-opioid-cpg: ImplementationGuide.dependsOn[6]: The ImplementationGuide uses package hl7.fhir.us.qicore#6.0.0 released on 2024-03-01, but the most recent appropriate version is 7.0.2. This reference is getting old and the more recent version should be considered
 
 # Using pinning with a manifest
@@ -175,5 +175,3 @@ INFORMATION: StructureDefinition/SickleCellProblemListHealthConcernCondition: St
 INFORMATION: StructureDefinition/SubacuteOrChronicPainManagementMedicationRequest: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/SubacutePainManagementMedicationRequest: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/UrineDrugScreeningResultObservation: StructureDefinition.snapshot.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
-
-
