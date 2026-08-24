@@ -1,7 +1,7 @@
 {
     "package-id" : "hl7.fhir.us.cdc-opioid-cpg",
     "version": "1.0.0",
-    "path": "http://hl7.org/fhir/us/cdc-opioid-cpg/STU1",
+    "path": "http://hl7.org/fhir/us/cdc-opioid-cpg/1.0.0",
     "mode": "milestone",
     "status": "trial-use",
     "sequence": "STU 1",

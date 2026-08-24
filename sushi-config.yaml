@@ -74,10 +74,10 @@ dependencies:
     id: cpg
     uri: http://hl7.org/fhir/uv/cpg/ImplementationGuide/hl7.fhir.uv.cpg
     version: 1.0.0
-  fhir.cdc.opioid-cds-r4:
+  fhir.cdc.opioid-cds:
     id: opioidcds
-    uri: http://fhir.org/guides/cdc/opioid-cds/ImplementationGuide/fhir.cdc.opioid-cds-r4
-    version: dev
+    uri: http://fhir.org/guides/cdc/opioid-cds/ImplementationGuide/fhir.cdc.opioid-cds
+    version: 2022.1.1
   hl7.fhir.us.core:
     uri: http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core
     version: 6.1.0
