@@ -8,7 +8,7 @@
 # === Warnings ===
 # ================
 
-# The CDC Opioid CPG depends on QiCore version 6.0.0 and US Core version 6.1.0 - we will consider referencing more recent versions in later publications
+# The CDC Opioid CPG has been tested and confirmed to work with QiCore version 6.0.0 and US Core version 6.1.0 - we will consider referencing more recent versions in later publications once we have tested with those versions
 WARNING: ImplementationGuide/hl7.fhir.us.cdc-opioid-cpg: ImplementationGuide.dependsOn[3]: The ImplementationGuide uses package hl7.fhir.uv.cpg#1.0.0 released on 2021-02-11, but the most recent appropriate version is 2.0.0. This reference is getting old and the more recent version should be considered
 WARNING: ImplementationGuide/hl7.fhir.us.cdc-opioid-cpg: ImplementationGuide.dependsOn[5]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 9.0.0. This reference is getting old and the more recent version should be considered
 WARNING: ImplementationGuide/hl7.fhir.us.cdc-opioid-cpg: ImplementationGuide.dependsOn[6]: The ImplementationGuide uses package hl7.fhir.us.qicore#6.0.0 released on 2024-03-01, but the most recent appropriate version is 7.0.2. This reference is getting old and the more recent version should be considered
@@ -16,12 +16,6 @@ WARNING: ImplementationGuide/hl7.fhir.us.cdc-opioid-cpg: ImplementationGuide.dep
 
 # Using pinning with a manifest, these are all coming from the fact that there are multiple versions of THO and the extensions pack in the dependency tree
 %There are multiple different potential matches for the url%
-
-# LOINC version 2.81 is referenced by the dependent opioid-cds package but is not available on the tx server
-WARNING: CarePlan/pain-treatment: CarePlan.category[0].coding[1].system: A definition for CodeSystem 'http://loinc.org' version '2.81' could not be found, so the code cannot be validated. Valid versions: 2.77 or 2.82
-WARNING: Observation/amphetamine-urine-drug-screening-result: Observation.code.coding[0].system: A definition for CodeSystem 'http://loinc.org' version '2.81' could not be found, so the code cannot be validated. Valid versions: 2.77 or 2.82
-WARNING: Observation/cannabinoid-urine-drug-screening-result: Observation.code.coding[0].system: A definition for CodeSystem 'http://loinc.org' version '2.81' could not be found, so the code cannot be validated. Valid versions: 2.77 or 2.82
-WARNING: Observation/methadone-urine-drug-screening-result: Observation.code.coding[0].system: A definition for CodeSystem 'http://loinc.org' version '2.81' could not be found, so the code cannot be validated. Valid versions: 2.77 or 2.82
 
 # This is the code that is currently in use so we are keeping it. However, it should be reviewed in another year, there is a new code here: 461621000124108, which has the same definition, but is a "procedure" instead of a "situation", but this new code is not being looked for by HEDIS measures, like the old code was
 WARNING: Observation/pdmp-review: Observation.code.coding[0]: The concept '461651000124104' has a status of inactive and its use should be reviewed
